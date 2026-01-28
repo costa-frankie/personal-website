@@ -1,10 +1,9 @@
-export function displayAboutContent() {
+export function displayContactContent() {
     const contentContainer = document.querySelector('#content');
     const content = `<section class="hero">
-                        <h1>Frankie Costa</h1>
-                        <h2>About Me</h2>
+                        <h1>Contact</h1>
+                        <h2>Email: costa.frankie@gmail.com</h2>
                     </section>
                     `;
-        
     contentContainer.innerHTML = content;
 }

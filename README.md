@@ -1,2 +1,2 @@
-# restaurant-project
-A restaurant project to practice using webpack
+# my-personal-website
+A website I built to showcase my professional experience 

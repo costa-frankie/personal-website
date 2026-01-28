@@ -1,8 +1,7 @@
-export function displayAboutContent() {
+export function displayResumeContent() {
     const contentContainer = document.querySelector('#content');
     const content = `<section class="hero">
-                        <h1>Frankie Costa</h1>
-                        <h2>About Me</h2>
+                        <h1>Resume</h1>
                     </section>
                     `;
         

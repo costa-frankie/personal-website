@@ -1,7 +1,7 @@
 import './styles.css';
 import { loadInterfaceElements } from './initialize.js';
-import { displayHomeContent }from './home.js';
-import { displayMenuContent } from './menu.js';
+import { displayResumeContent }from './resume.js';
+import { displayContactContent } from './contact.js';
 import { displayAboutContent } from './about.js';
 
 console.log("Init...");
@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     loadInterfaceElements();
 })
 
-const homeButton = document.querySelector('#home-btn');
-homeButton.addEventListener('click', (event) => {
-    displayHomeContent();
+const resumeButton = document.querySelector('#resume-btn');
+resumeButton.addEventListener('click', (event) => {
+    displayResumeContent();
 });
 
-const menuButton = document.querySelector('#menu-btn');
-menuButton.addEventListener('click', (event) => {
-    displayMenuContent();
+const contactButton = document.querySelector('#contact-btn');
+contactButton.addEventListener('click', (event) => {
+    displayContactContent();
 });
 
 const aboutButton = document.querySelector('#about-btn');
