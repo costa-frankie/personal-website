@@ -29,7 +29,7 @@ export function displayContactContent() {
                     <span class="lozenge default-lozenge">Product strategy</span> 
                     <span class="lozenge default-lozenge">Agile</span>  
                     <span class="lozenge default-lozenge">Scrum</span> 
-                    <span class="lozenge default-lozenge">PRDs</span>
+                    <span class="lozenge default-lozenge">Product requirements</span>
                     <span class="lozenge default-lozenge">UX Prototyping</span> 
                     <span class="lozenge default-lozenge">Collaboration</span> 
                     <span class="lozenge default-lozenge">B2B SaaS</span>  
@@ -46,8 +46,16 @@ export function displayContactContent() {
                     </a>
                 </div>
             </div>
-            <div class="placeholder absolute tilted-right-4"></div>
-            <div class="placeholder-2 absolute tilted-left-4"></div>
+            <div class="paper absolute" data-paper="1"></div>
+            <div class="paper absolute" data-paper="2"></div>
+            <div class="paper absolute" data-paper="3"></div>
+            <div class="paper absolute" data-paper="4"></div>
+            <div class="paper absolute" data-paper="5"></div>
+            <div class="paper absolute" data-paper="6"></div>
+            <div class="paper absolute" data-paper="7"></div>
+            <div class="paper absolute" data-paper="8"></div>
+            <div class="paper absolute" data-paper="9"></div>
+            <div class="paper absolute" data-paper="10"></div>
         </div> 
     </section>`;
     contentContainer.innerHTML = content;

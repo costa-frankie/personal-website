@@ -6,11 +6,11 @@ export function displayAboutContent() {
     const content = `<h1 class="content-title">About me</h1>
                     <div class="about-container">
                         <div id="about-text">
-                            <h1 id="name-hero">Frankie Costa</h1>
+                            <h1 class="hero-text special-elite-regular">Frankie Costa</h1>
                             <div class="note">
                                 <p class="bold">Experienced product manager who <span id="typed-text"></span></p>
                                 <p>I've spent 10+ years shipping desktop, cloud and AI-powered product solutions. </p>
-                                <p>I'm currently expanding my full-stack web development skills and seeking my next opportunity to bridge my product experience with hands-on execution.</p>
+                                <p>I'm currently expanding my full-stack web development skills and seeking my next opportunity to bridge my product experience with hands-on technical execution.</p>
                             </div> 
                         </div>
                         <div class="hero-image-container tilted-right-2">

@@ -20,7 +20,7 @@ function resolveImage(imagePath) {
 export function displayBookshelfContent() {
     const container = document.querySelector('#content');
 
-    const bookshelfHTML = data.books.map(book => `
+    const bookshelfHTML = data.books.map(book => /*html*/ `
             <div class="book-entry">
                 <img src="${resolveImage(book.image)}" class="book-image" alt="Cover of ${book.title}" />
                 <div class="book-meta">
@@ -33,7 +33,7 @@ export function displayBookshelfContent() {
     container.innerHTML = `
         <section class="bookshelf-container">
             <h1 class="content-title">My Bookshelf</h1>
-            <div class="summary-banner">
+            <div class="summary-banner info">
                 <p>Reading allows me to more clearly understand the world and the systems that comprise it. These books range from permaculture to neuroscience to fantasy and beyond. They all taught me how to think differently and view things from a different perspective.</p>
             </div>
             <div class="bookshelf-grid">

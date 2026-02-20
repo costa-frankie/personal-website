@@ -44,7 +44,7 @@ export function displayChangelogContent() {
     container.innerHTML = `
         <section class="changelog-container">
             <h1 class="content-title">Changelog</h1>
-            <div class="summary-banner">
+            <div class="summary-banner info">
                     <p>I originally planned this as a traditional web-based resume, but pivoted to instead reflect on myself as a "product". This changelog frames my career journey as software releases: what I achieved, improvements I made, bugs I fixed along the way, and known issues I'm still working on.</p>
                 </div>
             ${releasesHtml}
