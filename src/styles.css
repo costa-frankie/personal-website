@@ -1105,6 +1105,18 @@ footer {
     border-left: 3px solid var(--charcoal-muted);
 }
 
+.projects-list.has-expanded-card .project-card:not(.expanded) {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.project-card.expanded {
+    width: 100%;
+}
+
 @media (max-width: 600px) {
     .project-card {
         padding: 1.25rem;

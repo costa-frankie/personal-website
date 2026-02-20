@@ -8,7 +8,7 @@ export function displayAboutContent() {
                         <div id="about-text">
                             <h1 class="hero-text special-elite-regular">Frankie Costa</h1>
                             <div class="note">
-                                <p class="bold">Experienced product manager who <span id="typed-text"></span></p>
+                                <p class="bold">Experienced product builder who <span id="typed-text"></span></p>
                                 <p>I've spent 10+ years shipping desktop, cloud and AI-powered product solutions. </p>
                                 <p>I'm currently expanding my full-stack web development skills and seeking my next opportunity to bridge my product experience with hands-on technical execution.</p>
                             </div> 
@@ -26,7 +26,7 @@ export function displayAboutContent() {
     contentContainer.innerHTML = content;
 
     new Typed('#typed-text', {
-        strings: ['codes...', 'prototypes...', 'designs.', 'ships..', 'builds.', 'researches..', 'tests.', 'listens...', 'creates.'],
+        strings: ['codes...', 'prototypes...', 'designs.', 'ships..', 'researches..', 'tests.', 'listens...', 'creates.', 'analyzes'],
         typeSpeed: 100,
         backSpeed: 30,
         backDelay: 1500,

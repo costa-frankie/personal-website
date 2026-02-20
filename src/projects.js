@@ -48,6 +48,8 @@ export function displayProjectsContent() {
         </section>
     `;
 
+    const projectsList = container.querySelector('.projects-list');
+
     container.querySelectorAll('.project-card-header').forEach(header => {
         header.addEventListener('click', () => {
             const card = header.closest('.project-card');
@@ -55,6 +57,9 @@ export function displayProjectsContent() {
             container.querySelectorAll('.project-card').forEach(c => c.classList.remove('expanded'));
             if (!isExpanded) {
                 card.classList.add('expanded');
+                projectsList.classList.add('has-expanded-card');
+            } else {
+                projectsList.classList.remove('has-expanded-card');
             }
         });
     });
