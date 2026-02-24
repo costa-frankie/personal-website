@@ -37,7 +37,7 @@
         {
         "version": "3.0.0",
         "title": "Product Manager",
-        "company": "Axure Software Solutions",
+        "company": "<a href=\"https://www.axure.com/\" target=\"_blank\">Axure Software Solutions <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
         "released": "September 2019",
         "status": "Deprecated: July 2025",
         "details": [
@@ -46,7 +46,7 @@
                 "items": [
                     "Launched new collaborative products from concept to public beta.",
                     "Overhauled internal tools to support SaaS transition.",
-                    "Added Figma, Jira, and Confluence integrations to the organization's product suite.",
+                    "Added <a href=\"https://www.figma.com/community/plugin/837098402230990991/axure\" target=\"_blank\">Figma</a>, <a href=\"https://marketplace.atlassian.com/apps/1221645/axure-for-jira\" target=\"_blank\">Jira</a>, and <a href=\"https://marketplace.atlassian.com/apps/1223048/axure-for-confluence\" target=\"_blank\">Confluence</a> integrations to the organization's product suite.",
                     "Built user feedback loops and conducted interviews that reduced new user time-to-value.",
                     "Shipped dozens of improvements for the organization's desktop and web apps supporting global UX design teams."
                 ]
@@ -65,7 +65,7 @@
         {
         "version": "2.3.0",
         "title": "Product Manager III",
-        "company": "Mitchell International",
+        "company": "<a href=\"https://www.mitchell.com/\" target=\"_blank\">Mitchell International <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
         "released": "March 2019",
         "details": [
             {
@@ -255,14 +255,14 @@
         },
         {
         "version": "1.0.0",
-        "title": "Graduate",
+        "title": "B.A., International Business",
         "company": "San Diego State University",
         "released": "August 2012",
         "details": [
             {
                 "heading": "What's new",
                 "items": [
-                    "New Bachelor of Arts degree in International Business from San Diego State University. Summa cum laude (not lorem ipsum). Includes emphases in Marketing, Spanish & Latin America.",
+                    "New Bachelor of Arts degree in International Business from San Diego State University. Summa cum laude (that's not lorem ipsum). Includes emphases in Marketing, Spanish & Latin America.",
                     "Added international experience at Universidad del Desarrollo, Santiago, Chile.",
                     "Laundry self-sufficiency unlocked"
                 ]
