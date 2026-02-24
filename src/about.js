@@ -16,7 +16,9 @@ export function displayAboutContent() {
                         </div>
                     </div>
                     <div class="flex-column gap-sm centered">
-                        <img src="${foto}" class="hero-photo circular shadow-md open-border border-4" alt="Personal photo" />
+                        <div class="img-container open-border border-4 circular flex-column flex-align-center justify-center">
+                            <img src="${foto}" class="hero-photo circular shadow-md trans-all-200" alt="Personal photo" />
+                        </div>
                        <div class="open-border border-1 radius-2 open-to-work">
                             <p><span class="bullet">●</span> Open to work</p>
                         </div>
