@@ -1697,7 +1697,8 @@ footer {
 
 #typed-text { color: var(--action-brand) }
 
-.hero-photo { max-width: 360px }
+.hero-photo { max-width: 360px; filter: grayscale(1) }
+.hero-photo:hover { filter: none; }
 
 .avatar { max-width: 128px }
 
