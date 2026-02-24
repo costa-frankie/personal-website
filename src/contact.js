@@ -5,47 +5,52 @@ export function displayContactContent() {
     const contentContainer = document.querySelector('#content');
     
     const content = `
-    <section class="contact-container">
-        <h1 class="content-title">Contact</h1>
-        <div class="contact-card-stack">
-            <div class="contact-card">
-                <img src="${avatar}" class="avatar col-1 shadow-small" alt="Personal photo" />
-                <div class="contact-info col-2">
-                    <h1 class="card-header">Frankie Costa</h1>
-                    <h2 class="secondary">Product Manager</h2>
-                </div>
-                <div class="contact-details-list">
-                    <div class="contact-detail">
-                        <p><span class="material-symbols-outlined info-text">location_on</span>Based in Vancouver, WA</p>
-                    </div>
-                    <div class="contact-detail">
-                        <p><span class="material-symbols-outlined info-text">trip</span>Currently seeking opportunities</p>
-                    </div>
-                    <div class="contact-detail">
-                        <p><span class="material-symbols-outlined info-text">home_work</span>Open to remote or hybrid roles</p>
+    <section class="flex-column gap-md flex-align-center">
+        <h1 class="content-title pin-left">Contact</h1>
+        <div class="contact-card-stack relative">
+            <article class="contact-card card card--surface gap-lg padding-xl">
+                <div class="flex-row gap-lg">
+                    <img src="${avatar}" class="avatar shadow-sm circular" alt="Personal photo" />
+                    <div class="flex-column justify-center">
+                        <h2 class="card-heading font-special text-h2">Frankie Costa</h2>
+                        <h2 class="text-h4 muted weight-600">Product Manager</h2>
                     </div>
                 </div>
-                <div class="tag-list-container col-1-span-2">
+                <div class="flex-column flex-align-start gap-sm">
+                    <div class="muted">
+                        <p class="text-p flex-row flex-align-center gap-sm"><span class="material-symbols-outlined text-info">location_on</span>Based in Vancouver, WA</p>
+                    </div>
+                    <div class="muted">
+                        <p class="text-p flex-row flex-align-center gap-sm"><span class="material-symbols-outlined text-info">trip</span>Currently seeking opportunities</p>
+                    </div>
+                    <div class="muted">
+                        <p class="text-p flex-row flex-align-center gap-sm"><span class="material-symbols-outlined text-info">home_work</span>Open to remote or hybrid roles</p>
+                    </div>
+                </div>
+                <div class="cluster readable border-vert-subtle padding-vert-lg">
                     <span class="lozenge default-lozenge">Product strategy</span> 
-                    <span class="lozenge default-lozenge">Agile</span>  
+                    <span class="lozenge default-lozenge">Agile methodologies</span>  
                     <span class="lozenge default-lozenge">Scrum</span> 
                     <span class="lozenge default-lozenge">Product requirements</span>
+                    <span class="lozenge default-lozenge">Roadmap planning</span>
+                    <span class="lozenge default-lozenge">OKRs</span>
                     <span class="lozenge default-lozenge">UX Prototyping</span> 
                     <span class="lozenge default-lozenge">Collaboration</span> 
                     <span class="lozenge default-lozenge">B2B SaaS</span>  
                     <span class="lozenge default-lozenge">Enterprise software</span>
                     <span class="lozenge default-lozenge">User research</span> 
-                    <span class="lozenge default-lozenge">Roadmap planning</span>
-                     
+                    <span class="lozenge default-lozenge">APIs</span> 
+                    <span class="lozenge default-lozenge">Data visualization</span> 
+                    
                 </div>
-                <div class="cta-container col-1-span-2">
-                    <p class="col-1-span-2 text-centered secondary">Interested in getting in touch?</p>
-                    <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn">
+                <div class="flex-column gap-lg flex-align-center">
+                    <p class="centered muted">Interested in getting in touch? Let's connect!</p>
+                    <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="btn connect-btn flex-row justify-center flex-align-center gap-sm ">
                         <img src="${inImage}" width="32px" height="32px" alt="LinkedIn" />
                         <p>Connect on LinkedIn</p>
                     </a>
                 </div>
-            </div>
+            </article>
             <div class="paper absolute" data-paper="1"></div>
             <div class="paper absolute" data-paper="2"></div>
             <div class="paper absolute" data-paper="3"></div>

@@ -38,7 +38,7 @@
     },
     {
         "icon": "router",
-        "title": "Pi-hole (home network-wide ad blocker)",
+        "title": "Home network-wide ad blocker (Pi-hole)",
         "tags": ["Local networking", "DNS", "Router configuration", "DHCP" ],
         "summary": [
           { "heading": "Context",     "content": "I love to cook, but I absolutely hate recipe websites with all of the ads. I wanted a way to easily browse recipes and websites without constantly having to dismiss ads." },

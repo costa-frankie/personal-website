@@ -2,7 +2,7 @@
     "releases": [
         {
         "version": "4.0.0",
-        "title": "Learner / tinkerer • portfolio builder • at-home barista",
+        "title": "Independent learner • portfolio builder • at-home barista",
         "company": null,
         "released": "July 2025",
         "status": "Live",
@@ -55,7 +55,6 @@
                 "heading": "Improvements",
                 "items": [
                     "Made industry transition from insurance software / collision repair industry to UX design tools space.",
-                    "Product definition skills expanded.",
                     "Upgraded influence-without-authority capabilities with user data.",
                     "Increased role flexibility beyond traditional PM duties.",
                     "Added remote work capabilities."
@@ -93,12 +92,6 @@
                     "Fear of appearing uninformed eliminated with possession of intimate product knowledge.",
                     "Influence without authority is now functional.",
                     "Patched imposter syndrome."
-                ]
-            },
-            {
-                "heading": "Known issues",
-                "items": [
-                    "Next career step is ready, but it remains unclear what that looks like."
                 ]
             }
         ]
@@ -163,7 +156,7 @@
                     "Product decision-making granted. Can now set team priorities and influence direction.",
                     "Increased developer credibility through consistent question-asking and coursework.",
                     "Built new relationships with key stakeholders, customers and technical teams.",
-                    "Coffee quality standards increased significantly with exposure to French press and fresh-roasted beans."
+                    "Coffee quality standards increased significantly with exposure to French press and fresh, locally-roasted beans."
                 ]
             },
             {
@@ -224,7 +217,7 @@
                     "Frustration level increases when valuable customer feedback is surfaced, but can't directly influence what actually gets prioritized.",
                     "Ad hoc reporting dashboards for individual clients lacks automation and does not scale well.",
                     "careerPath remains undefined. Internal testing is ongoing and has recently revealed a potential path forward. Stay tuned!",
-                    "Troubleshooting remains unstable when working with family members that rhyme with 'rad'."
+                    "Technology troubleshooting remains unstable when dealing with family members that rhyme with 'rad'."
                 ]
             }
         ]
@@ -240,7 +233,7 @@
                 "items": [
                     "Added professional marketing experience.",
                     "Integrated digital marketing and web analytics capabilities.",
-                    "Following a successful beta, the Spanish language pack is now officially live and available for all Personal & Professional accounts in the Latin America region. Note: known issues processing Castellano (Spain) Spanish still remain."
+                    "Following a successful beta, the Spanish language pack is now officially live and available for all Personal & Professional accounts in the Latin America region. Note: known issues processing Castellano (Spain) Spanish still exist."
                 ]
             },
             {
@@ -269,7 +262,7 @@
             {
                 "heading": "What's new",
                 "items": [
-                    "New Bachelor of Arts degree in International Business from San Diego State University. Summa cum laude (that is not lorem ipsum). Includes emphases in Marketing, Spanish & Latin America.",
+                    "New Bachelor of Arts degree in International Business from San Diego State University. Summa cum laude (not lorem ipsum). Includes emphases in Marketing, Spanish & Latin America.",
                     "Added international experience at Universidad del Desarrollo, Santiago, Chile.",
                     "Laundry self-sufficiency unlocked"
                 ]
@@ -302,9 +295,9 @@
                 {
                     "heading": "Core features",
                     "items": [
-                        "All Star Personality mode (as mentioned in the Senior Superlatives section of the yearbook)",
+                        "All Star Personality (as voted by peers in the yearbook)",
                         "Strong performance in academic environments",
-                        "Proficient in absorbing life lessons via history teachers, MTV, Harry Potter and conscious underground hip hop lyrics"
+                        "Proficient in absorbing life lessons through history teachers, MTV, Harry Potter and conscious underground hip hop lyrics"
                     ]
                 },
                 {
@@ -312,8 +305,8 @@
                     "items": [
                         "Console error appears when asking for future plans: \"Cannot read properties of undefined (reading 'careerPath')\".",
                         "Belief System directory is polluted with false narratives.",
-                        "Nutritional diversity limited to mom's cooking and unusual amounts of Parmesan Goldfish crackers.",
-                        "Unable to import Caffeine without sugar integration enabled. Coffee remains undiscoverable.",
+                        "Nutritional diversity limited to mom's spaghetti and unusual amounts of Parmesan Goldfish crackers.",
+                        "Unable to import caffeine without sugar integration enabled. Coffee routine remains undiscoverable.",
                         "Laundry capabilities do not yet exist.",
                         "Procrastination mode automatically activates when a project has 'uninspiring' property set to 'true'."
                     ]

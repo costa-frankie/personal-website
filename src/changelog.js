@@ -7,10 +7,10 @@ export function displayChangelogContent() {
         const companyText = release.company ? ` @ ${release.company}` : '';
 
         const detailsHtml = release.details.map(section => `
-            <div class="changelog-section">
-                <h4 class="section-heading">${section.heading}</h4>
-                <ul class="changelog-items">
-                    ${section.items.map(item => `<li>${item}</li>`).join('')}
+            <div class="flex-column flex-align-start gap-sm">
+                <h5 class="upper bold">${section.heading}</h5>
+                <ul class="changelog-items readable">
+                    ${section.items.map(item => `<li class="padding-left-xl relative">${item}</li>`).join('')}
                 </ul>
             </div>
         `).join('');
@@ -24,15 +24,14 @@ export function displayChangelogContent() {
         }
 
         else status = "";
-
         return `
-            <div class="changelog-entry">
-                <div class="changelog-header">
+            <div class="flex-column flex-align-start gap-md border-l-accent padding-left-xl">
+                <div class="changelog-header flex-column gap-md">
                     <div>
-                        <span class="version">v${release.version}</span>
-                        <h3 class="changelog-version-name">${release.title}${companyText}</h3>
+                        <span class="text-h1 text-accent font-mono bold">v${release.version}</span>
+                        <h3 class="text-h4">${release.title}${companyText}</h3>
                     </div>
-                    <div class="metadata">
+                    <div class="flex-row gap-md flex-align-center">
                         <span class="released">${release.released}</span>${status}
                     </div>
                 </div>
@@ -42,12 +41,15 @@ export function displayChangelogContent() {
     }).join('');
 
     container.innerHTML = `
-        <section class="changelog-container">
-            <h1 class="content-title">Changelog</h1>
+        <section class="flex-column flex-align-center" id="changelog-container">
+            <h1 class="content-title pin-left">Changelog</h1>
             <div class="summary-banner info">
                     <p>I originally planned this as a traditional web-based resume, but pivoted to instead reflect on myself as a "product". This changelog frames my career journey as software releases: what I achieved, improvements I made, bugs I fixed along the way, and known issues I'm still working on.</p>
                 </div>
-            ${releasesHtml}
+            <div class="flex-column flex-align-center gap-3xl" id="changelog-list">
+                ${releasesHtml}
+            </div>    
+            
         </section>
     `;
 }
