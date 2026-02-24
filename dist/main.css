@@ -1244,7 +1244,22 @@ html {
   'FILL' 0,
   'wght' 200,
   'GRAD' 0,
+<<<<<<< HEAD
   'opsz' 24
+=======
+  'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a:hover .material-symbols-outlined {
+    text-decoration: none;
+}
+
+.material-symbols-heading {
+    font-variation-settings: 
+        'wght' 500;
+>>>>>>> main
 }
 
 .special-elite-regular {
@@ -1289,6 +1304,10 @@ li {
     margin: var(--space-sm);
     line-height: var(--line-height-golden);
     max-width: 69ch;
+<<<<<<< HEAD
+=======
+    text-wrap: pretty;
+>>>>>>> main
 }
 
 a {
@@ -1312,7 +1331,11 @@ a:hover { text-decoration: underline }
     font-size: 6rem; 
     letter-spacing: .25rem;
     max-width: 8ch;
+<<<<<<< HEAD
     color: var(--action-brand);
+=======
+    color: var(--border-brand);
+>>>>>>> main
     line-height: 1;
     -webkit-text-stroke: 1px var(--text-dark);
 }

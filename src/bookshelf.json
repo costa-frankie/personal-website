@@ -36,7 +36,12 @@
         "image": "https://covers.openlibrary.org/b/id/11299525-L.jpg",
         "readStatus": "read"
         },
-
+        {
+        "title": "Four Season Harvest",
+        "author": "Eliot Coleman",
+        "image": "https://covers.openlibrary.org/b/id/2093050-L.jpg",
+        "readStatus": "read"
+        },
         {
         "title": "Tuesdays with Morrie",
         "author": "Mitch Albom",
@@ -77,6 +82,12 @@
         "title": "Cooked: A Natural History of Transformation",
         "author": "Michael Pollan",
         "image": "https://covers.openlibrary.org/b/id/12624882-L.jpg",
+        "readStatus": "read"
+        },
+        {
+        "title": "Ishmael",
+        "author": "Daniel Quinn",
+        "image": "https://covers.openlibrary.org/b/id/367924-L.jpg",
         "readStatus": "read"
         }
     ]
