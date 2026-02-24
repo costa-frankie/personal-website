@@ -172,6 +172,7 @@ ul {
 li {
     margin: var(--space-sm);
     line-height: var(--line-height-golden);
+    max-width: 69ch;
 }
 
 a {
