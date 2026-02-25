@@ -1131,6 +1131,7 @@ nav {
 
     /* Blues */ 
     --pr-blue-base:     rgb(0, 132, 214);
+    --pr-blue-dark:     hsl(203, 100%, 35%);
     --pr-blue-light:     rgb(246, 252, 255);
     --pr-blue-subtle:     rgb(201, 237, 255);
 
@@ -1170,7 +1171,7 @@ nav {
     --text-dark:        var(--pr-gray-900);
     --text-muted:       var(--pr-gray-400);
     --text-on-brand:    var(--pr-white);
-    --text-link:        var(--pr-blue-base);
+    --text-link:        var(--pr-blue-dark);
 
     /* Brand/Action States */
     --action-brand:     var(--pr-orange-dark);
@@ -1366,6 +1367,9 @@ a:hover { text-decoration: underline }
 }
 
 .flex-align-center { align-items: center }
+.flex-align-self-center {
+    align-self: center;
+}
 .flex-align-start { align-items: flex-start }
 .flex-wrap { flex-wrap: wrap }
 
@@ -1386,11 +1390,12 @@ a:hover { text-decoration: underline }
 /* MARK: SPACING / POSITIONING */
 
 .full-width { width: 100% }
+.width-80 { width: 80% }
 .centered { align-items: center; text-align: center }
 .relative { position: relative }
 .absolute { position: absolute }
 
-/* Margin */
+/* MARK: Margin */
 .pin-right { margin-left: auto }
 .pin-left { margin-right: auto }
 .pin-bottom { margin-top: auto }
@@ -1402,7 +1407,7 @@ a:hover { text-decoration: underline }
 .margin-bottom-md { margin-bottom: var(--space-md) }
 .margin-bottom-xl { margin-bottom: var(--space-xl) }
 
-/* Padding */
+/* MARK: Padding */
 
 .padding-0 { padding: 0 }
 .padding-sm { padding: var(--space-sm) }
@@ -1417,6 +1422,7 @@ a:hover { text-decoration: underline }
 .padding-vert-3xl { padding-top: var(--space-3xl); padding-bottom: var(--space-3xl) }
 
 .padding-horizon-sm { padding-left: var(--space-sm); padding-right: var(--space-sm) }
+.padding-horizon-md { padding-left: var(--space-md); padding-right: var(--space-md) }
 .padding-horizon-lg { padding-left: var(--space-lg); padding-right: var(--space-lg) }
 
 .padding-top-xl { padding-top: var(--space-xl) }
@@ -1425,6 +1431,8 @@ a:hover { text-decoration: underline }
 .padding-left-md { padding-left: var(--space-md) }
 .padding-left-lg { padding-left: var(--space-lg) }
 .padding-left-xl { padding-left: var(--space-xl) }
+
+.padding-right-md { padding-left: var(--space-md) }
 
 /* MARK: OBJECTS */ 
 
@@ -1511,6 +1519,10 @@ footer {
         rgba(255, 255, 255, 0) 15%,     /* Stay transparent for the first 15% */
         var(--primary-accent-10) 100%                    /* Fade into the footer's color towards the bottom */
     );
+}
+
+footer p {
+    word-wrap: balance;
 }
 
 .cluster {
@@ -1700,7 +1712,7 @@ footer {
 .hero-photo { max-width: 360px; filter: grayscale(1) }
 .hero-photo:hover { filter: none; }
 
-.avatar { max-width: 128px }
+.avatar { max-width: 128px; aspect-ratio: 1/1; }
 
 .paper {
     top: 0;
@@ -1745,7 +1757,7 @@ footer {
 .contact-card:hover ~ .paper[data-paper="10"] { z-index: -10; transform: translate(calc(var(--card-offset) * 10), calc(var(--card-offset) * 10)) }
 
 .note {
-    max-width: 45ch; 
+    max-width: 37ch; 
 }
 
 /* MARK: Style additions */
@@ -1767,7 +1779,11 @@ footer {
 .circular { border-radius: var(--radius-full) }
 .rounded { border-radius: var(--radius-md) };
 
-.readable { 
+.readable {
+    max-width: 69ch;
+}
+
+.readable * { 
     max-width: 69ch;
 }
 
@@ -1817,3 +1833,4 @@ footer {
 .radius-2 {
     border-radius: 2rem;
 }
+
