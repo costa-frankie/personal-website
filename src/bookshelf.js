@@ -31,7 +31,7 @@ export function displayBookshelfContent() {
         `).join('');
 
     container.innerHTML = `
-        <section class="bookshelf-container">
+        <section class="bookshelf-container width-80">
             <h1 class="content-title pin-left">My Bookshelf</h1>
             <div class="summary-banner info">
                 <p>Reading allows me to more clearly understand the world and the systems that comprise it. These books range from permaculture to neuroscience to fantasy and beyond. They all taught me how to think differently and view things from a different perspective.</p>

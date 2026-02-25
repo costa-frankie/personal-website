@@ -5,15 +5,15 @@ export function displayContactContent() {
     const contentContainer = document.querySelector('#content');
     
     const content = `
-    <section class="flex-column gap-md flex-align-center">
+    <section class="flex-column gap-md flex-align-center width-80">
         <h1 class="content-title pin-left">Contact</h1>
         <div class="contact-card-stack relative">
             <article class="contact-card card card--surface gap-lg padding-xl">
                 <div class="flex-row gap-lg">
                     <img src="${avatar}" class="avatar shadow-sm circular" alt="Personal photo" />
                     <div class="flex-column justify-center">
-                        <h2 class="card-heading font-special text-h2">Frankie Costa</h2>
-                        <h2 class="text-h4 muted weight-600">Product Manager</h2>
+                        <h2 class="card-heading font-special text-h3">Frankie Costa</h2>
+                        <h2 class="text-h5 muted font-special">Product Manager</h2>
                     </div>
                 </div>
                 <div class="flex-column flex-align-start gap-sm">

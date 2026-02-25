@@ -41,10 +41,10 @@ export function displayChangelogContent() {
     }).join('');
 
     container.innerHTML = `
-        <section class="flex-column flex-align-center" id="changelog-container">
+        <section class="flex-column flex-align-center width-80 flex-align-self-center" id="changelog-container">
             <h1 class="content-title pin-left">Changelog</h1>
             <div class="summary-banner info">
-                    <p>I originally planned this as a traditional web-based resume, but pivoted to instead reflect on myself as a "product". This changelog frames my career journey as software releases: what I achieved, improvements I made, bugs I fixed along the way, and known issues I'm still working on.</p>
+                    <p class="text-p">I originally planned this as a traditional web-based resume, but pivoted to instead reflect on myself as a "product". This changelog frames my career journey as software releases: what I achieved, improvements I made, bugs I fixed along the way, and known issues I'm still working on.</p>
                 </div>
             <div class="flex-column flex-align-center gap-3xl" id="changelog-list">
                 ${releasesHtml}

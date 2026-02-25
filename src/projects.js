@@ -36,7 +36,7 @@ export function displayProjectsContent() {
     }).join('');
 
     container.innerHTML = `
-        <section class="projects-container">
+        <section class="projects-container width-80">
             <h1 class="content-title pin-left">Projects</h1>
             <div class="summary-banner flex-column gap-md highlight">
                 <h3>FEATURED PROJECTS</h3>
