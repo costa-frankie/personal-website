@@ -1233,11 +1233,21 @@ nav {
     --fs-sm: 0.8rem;
 
     --card-offset: 4px;
+
+    --tag-product-main: purple;
+    --tag-product-bg: oklch(94.6% 0.033 307.174); /* TW purple-100 */
+
+    --tag-technical-main: green; 
+    --tag-technical-bg: oklch(96.2% 0.044 156.743); /* TW green-100 */
+    
+    --tag-design-main: oklch(52.5% 0.223 3.958); /* TW pink-700 */
+    --tag-design-bg: oklch(94.8% 0.028 342.258); /* TW pink-100 */
 }
 
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
 }
 
 .material-symbols-outlined {
@@ -1375,6 +1385,7 @@ a:hover { text-decoration: underline }
     align-self: end;
 }
 .flex-align-start { align-items: flex-start }
+.flex-align-stretch { align-items: stretch }
 .flex-wrap { flex-wrap: wrap }
 
 .gap-xs     { gap: var(--space-xs) }
@@ -1532,10 +1543,6 @@ footer {
     );
 }
 
-footer p {
-    word-wrap: balance;
-}
-
 .cluster {
     display: flex; 
     flex-wrap: wrap; 
@@ -1636,16 +1643,12 @@ footer p {
 }
 
 .project-card {
-    min-width: max(48ch, 42%);
-    flex: 1;
+    flex: 3;
+    min-width: calc(50% - var(--space-md));
 }
 
 .project-card:hover {
     background-color: var(--card-hover);
-}
-
-.project-card:hover .project-icon {
-    background-color: var(--icon-hover-bg);
 }
 
 .project-icon {
@@ -1681,8 +1684,8 @@ footer p {
 
 .project-card.expanded {
     gap: var(--space-xl);
-    max-width: min(69ch, 100%);
-    margin: auto;
+    width: 100%;
+    
 }
 
 .project-card.expanded:hover {
@@ -1771,6 +1774,8 @@ footer p {
     max-width: 37ch; 
 }
 
+.icon-container:has(.material-symbols-outlined) { padding: var(--space-xs); border-radius: var(--space-sm) }
+
 .icon--interactive:hover {
     background-color: var(--pr-gray-100);
 }
@@ -1803,6 +1808,7 @@ footer p {
 }
 
 .pretty-wrap { text-wrap: pretty }
+.balance-wrap { text-wrap: balance }
 
 .border-1 {
     border: 1px solid;
@@ -1847,5 +1853,20 @@ footer p {
 
 .radius-2 {
     border-radius: 2rem;
+}
+
+.tag-design {
+    color: var(--tag-design-main);
+    background-color: var(--tag-design-bg);
+}
+
+.tag-technical {
+    color: var(--tag-technical-main);
+    background-color: var(--tag-technical-bg);
+}
+
+.tag-product {
+    color: var(--tag-product-main);
+    background-color: var(--tag-product-bg);
 }
 
