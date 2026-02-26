@@ -2,20 +2,22 @@
   "projects": [
     {
         "icon": "music_cast",
-        "title": "Personal music streaming app",
+        "title": "Frankquency 1.0",
+        "description": "A personally curated radio & podcast streaming app",
         "tags": ["Node.js", "RSS/XML", "Local networking", "Javascript", "HTML", "CSS" ],
         "summary": [
             { "heading": "Context:",    "content": "I wanted an easy way to play my favorite podcasts and radio stations from around the world without having to install an app from an appstore or pay for a subscription." },
-            { "heading": "Process:",    "content": "I built a Node.js app and configured the server to bind to my mini PC's local IP address on a specific port, allowing any client device on my home network to stream content. I managed the firewall and router settings to assign a static DHCP reservation to my machine so that clients can always find the server." },
-            { "heading": "Outcome",     "content": "A lightweigh streaming solution that eliminates daily friction and cognitive load by consolidating multiple audio streaming sources into a single, unified interface. By hosting the service locally, I can stream global radio and podcast feeds from any device." },
-            { "heading": "Learnings",   "content": "I learned about the podcast XML format, how RSS feeds work, and local networking configuration." },
+            { "heading": "Process:",    "content": "I built a Node.js app and configured it on my home server, allowing any client device on my network to stream my curated list of sound streams. I managed the firewall and router settings to assign a static DHCP reservation to my machine so that clients can always find the server." },
+            { "heading": "Outcome",     "content": "A lightweight streaming solution that eliminates daily friction and cognitive load by consolidating multiple audio streaming sources into a single, unified interface. By hosting the service locally, I can stream global radio and podcast feeds from any device. No more context switching between this podcast app and that music station." },
+            { "heading": "Learnings",   "content": "I learned about the podcast XML format, how RSS feeds work, and local networking configuration. I also experimented with Claude Code for this project to get a better understanding of current AI developer workflows and related UX patterns. I learned to <i>plan</i> up front with plan mode, <i>ask</i> clarifying questions to <i>iterate</i> on that plan and understand the technical approach, and finally <i>implement</i> the changes line-by-line." },
             { "heading": "Next steps",  "content": "Make it easy to add new podcasts / radio stations. Consider containerizing it with Docker. Consider adding a 'Recently Played' or 'Favorites' feature." }
         ]
     },
     {
         "icon": "partly_cloudy_day",
-        "title": "Personal weather app",
-        "tags": ["Javascript", "HTML", "CSS", "REST APIs", "Data visualization", "Flexbox", "CSS Grid"],
+        "title": "Personal Weather App 1.0",
+        "description": "A simple web app that fetches live forecast data and presents it in a dashboard-like interface",
+        "tags": ["Javascript", "HTML", "CSS", "REST APIs", "data viz", "flexbox", "responsive design"],
         "summary": [
           { "heading": "Context",     "content": "During fire season, I wanted to know the air quality for the region to avoid health issues while hiking. I also wanted to have an answer to the common questions, \"What should I wear? Do you think its going to rain today?\"" },
           { "heading": "Process",     "content": "I built a webpage with HTML/CSS/JS to display the current weather conditions, hourly and daily forecasts, air charts for data points including Air Quality Index (AQI). It leverages weather.gov and Open-Meteo APIs and parses the JSON responses and render the forecast information in a digestable, easy-to-read interface."},
@@ -26,8 +28,9 @@
     },
     {
         "icon": "travel",
-        "title": "Aircraft Tracker App",
-        "tags": ["React", "CSS", "MapLibre GL JS", "Node.js", "Express", "OAuth 2.0", "OpenSky API", "Webpack", "npm scripts" ],
+        "title": "Aircraft Tracker 1.0",
+        "description": "Leverages APIs to fetch data about what aircrafts are flying overhead and presents it in an easy-to-use map interface",
+        "tags": ["React", "CSS", "MapLibre GL JS", "Node.js", "Express", "OAuth 2.0", "OpenSky API", "webpack", "npm scripts" ],
         "summary": [
             { "heading": "Context:",        "content": "We live within 15 minutes of a busy international airport and other small regional airfields, so we frequently hear the sound of overhead air traffic. I'm naturally curious and wanted a quick way to identify the aircraft flying over my house, where it's coming from and where it's headed. I built a React app that fetches live aircraft data and displays them on an interactive map with details like altitude, heading, and velocity." },
             { "heading": "Process:",        "content": "This was one of my first experiments with React, so I did lean more heavily on Claude to help wire up the app. I used webpack and npm scripts for the build setup. The app fetches live data from the OpenSky API and renders them on a MapLibre GL map. I also leveraged the callsign returned from the API to construct a FlightAware URL, giving users a clickable link to more flight details. Authentication with OpenSky is handled via OAuth using a clientID and secret, which are stored in a .env file." },
@@ -38,8 +41,9 @@
     },
     {
         "icon": "router",
-        "title": "Home network-wide ad blocker (Pi-hole)",
-        "tags": ["Local networking", "DNS", "Router configuration", "DHCP" ],
+        "title": "Configured Pi-hole",
+        "description": "I set up a home network-wide ad blocker for (mostly) ad-free browsing on all devices",
+        "tags": ["local networking", "DNS", "DHCP" ],
         "summary": [
           { "heading": "Context",     "content": "I love to cook, but I absolutely hate recipe websites with all of the ads. I wanted a way to easily browse recipes and websites without constantly having to dismiss ads." },
           { "heading": "Process",     "content": "I used a Raspberry Pi and configured Pi-hole, a network-wide ad blocker, that acts as a Domain Name System-sinkhole and protects all of your network devices from unwanted ad content without having to install any client-side software."},
@@ -50,19 +54,21 @@
     },
     {
         "icon": "electric_bolt",
-        "title": "Javascript-powered prototyping widgets",
+        "title": "Random User UX Widget Library",
+        "description": "A Javascript-powered prototyping widget library for rapid prototyping in Axure RP",
         "tags": ["DOM manipulation", "APIs", "Javscript", "UX prototyping"],
         "summary": [
           { "heading": "Context",     "content": "The Axure RP desktop application does not provide users with a way to easily insert randomly-generated content from the web. I wanted an easy way to prototype with random content, without having to write out my own random text strings or find image sources online." },
           { "heading": "Process",     "content": "I created a library of widgets that leverage Javascript and make a call to the Random User Generator API to add random user avatars, names, addresses, etc. to the prototype at runtime."},
           { "heading": "Outcome",     "content": "As a result, I can now quickly create prototypes with random content without having to search every time." },
           { "heading": "Learnings",   "content": "I gained a better understanding of how to use query selectors to update DOM elements." },
-          { "heading": "Next steps",  "content": "Since AI-prototyping is really taking off, I don't really see myself continuing to maintain this library. Nothing planned here!" }
+          { "heading": "Next steps",  "content": "Perhaps I'll rebuild the library as actual stand-alone web components that I can leverage in my future coding projects. Stay tuned for more!" }
         ]
     },
     {
         "icon": "potted_plant",
-        "title": "Garden Planning App Prototype",
+        "title": "Plant Something Prototype",
+        "description": "A fully functional UX prototype that helps users grow healthy plants from seed",
         "tags": ["UX prototyping", "UI design"],
         "summary": [
             { "heading": "Context",     "content": "I like to grow plants from seeds and wanted a way to quickly access information such as planting depth, ideal soil temperature, and spacing and nutrient requirements." },

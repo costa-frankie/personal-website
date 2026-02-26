@@ -14,17 +14,26 @@ export function displayProjectsContent() {
         return `
             <div class="project-card collapsed card flex-align-center padding-xl card--surface card--interactive">
                 <div class="full-width">
-                    <div class="project-card-header flex-row gap-lg flex-align-center justify-start full-width margin-bottom-md cursor-pointer">
-                        <div>
-                            <span class="material-symbols-outlined project-icon padding-sm rounded flex-row flex-align-center justify-center">${project.icon}</span>
+                    <div class="project-card-header flex-column flex-align-start gap-md margin-bottom-md cursor-pointer">
+                        <div class="flex-row gap-md space-between full-width">
+                            <div class="icon-container">
+                                <span class="material-symbols-outlined project-icon padding-sm rounded flex-row flex-align-center justify-center">${project.icon}</span>
+                            </div>
+                            <div class="grouped">
+                                <div class="icon-container icon--interactive">
+                                    <span class="material-symbols-outlined project-expand-icon muted project-expand-icon--more icon--interactive">unfold_more</span>
+                                </div>
+                                <div class="icon-container icon--interactive">
+                                    <span class="material-symbols-outlined project-expand-icon muted project-expand-icon--less icon--interactive">close</span>
+                                </div>
+                            </div>
                         </div>
-                        <h2 class="project-title pretty-wrap">${project.title}</h2>
-                        <span class="material-symbols-outlined project-expand-icon muted project-expand-icon--more pin-right">unfold_more</span>
-                        <span class="material-symbols-outlined project-expand-icon muted project-expand-icon--less pin-right">close</span>
+                        <div class="flex-column flex-align-start gap-sm">
+                            <h3 class="project-title pretty-wrap text-h4 font-special">${project.title}</h3>
+                            <span class="text-h5 muted readable pretty-wrap">${project.description}</span>
+                        </div>
                     </div>
-                    <div class="cluster">
-                            ${project.tags.filter(t => t).map(tag => `<span class="lozenge default-lozenge">${tag}</span>`).join('')}
-                    </div>
+                    <div class="cluster">${project.tags.filter(t => t).map(tag => `<span class="lozenge default-lozenge">${tag}</span>`).join('')}</div>
                 </div>
                 <div class="project-content flex-column collapsed readable">
                     <div class="project-summary flex-column gap-xl">
@@ -39,17 +48,19 @@ export function displayProjectsContent() {
         <section class="projects-container width-80">
             <h1 class="content-title pin-left">Projects</h1>
             <div class="summary-banner flex-column gap-md highlight">
-                <h3>FEATURED PROJECTS</h3>
+                <h3>FEATURED PROJECTS <span class="weight-normal muted">🚧 <i>Under Construction</i> 🚧</span></h3>
                 <p>I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>
             </div>
-            <div class="flex-row flex-wrap gap-xl margin-top-xl full-width flex-align-start" id="projects-list">
+            <div class="flex-row space-between flex-align-stretch flex-wrap gap-md margin-top-xl full-width" id="projects-list">
                 ${projectsHtml}
             </div>
         </section>
     `;
 
+    // Expand project card on click, collapse all others, scroll to top of view
     container.querySelectorAll('.project-card').forEach(card => {
-        card.addEventListener('click', () => {
+        card.addEventListener('click', (event) => {
+            event.stopPropagation();
             if (card.classList.contains('collapsed')) {
                 container.querySelectorAll('.project-card.expanded').forEach(expandedCard => {
                     expandedCard.classList.remove('expanded');
@@ -58,6 +69,11 @@ export function displayProjectsContent() {
                 card.classList.add('expanded');
                 card.classList.remove('collapsed');
                 
+                const projectsListContainer = document.querySelector('#projects-list'); 
+                projectsListContainer.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                })
             }
         });
     });
@@ -69,6 +85,15 @@ export function displayProjectsContent() {
             const card = closeBtn.closest('.project-card');
             card.classList.remove('expanded');
             card.classList.add('collapsed');
-        })
+
+
+        });
+    });
+
+    document.addEventListener('click',() => {
+        container.querySelectorAll('.project-card.expanded').forEach(expandedCard => {
+            expandedCard.classList.remove('expanded');
+            expandedCard.classList.add('collapsed');
+        });
     });
 }
