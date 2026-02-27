@@ -42,4 +42,26 @@ document.querySelector('#nav-logo-container').addEventListener('click', () => {
     document.querySelector('#about-btn').classList.add('selected');
 });
 
+// Mobile hamburger menu
+const menuBtn = document.querySelector('#nav-menu-btn');
+const navButtonContainer = document.querySelector('#nav-button-container');
+
+menuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navButtonContainer.classList.toggle('open');
+});
+
+// Close popup when any button or link inside is clicked
+// (selected class is already managed by the per-button listeners above)
+navButtonContainer.addEventListener('click', (e) => {
+    if (e.target.closest('button') || e.target.closest('a')) {
+        navButtonContainer.classList.remove('open');
+    }
+});
+
+// Close popup when clicking outside
+document.addEventListener('click', () => {
+    navButtonContainer.classList.remove('open');
+});
+
 

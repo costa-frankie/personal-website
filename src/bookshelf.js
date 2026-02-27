@@ -41,4 +41,12 @@ export function displayBookshelfContent() {
             </div>
         </section>
     `;
+
+    container.querySelectorAll('.book-entry').forEach((el, i) => {
+        const url = data.books[i].url;
+        if (url) {
+            el.style.cursor = 'pointer';
+            el.addEventListener('click', () => window.open(url, '_blank'));
+        }
+    });
 }

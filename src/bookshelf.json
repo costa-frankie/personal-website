@@ -4,6 +4,7 @@
         "title": "The Electricity of Every Living Thing",
         "author": "Katherine May",
         "image": "https://covers.openlibrary.org/b/id/15152980-L.jpg",
+        "url": "https://openlibrary.org/works/OL21643177W/Electricity_of_Every_Living_Thing?edition=key%3A/books/OL29419824M",
         "readStatus": "read"
         },
         {
@@ -16,42 +17,49 @@
         "title": "Finding the Mother Tree",
         "author": "Suzanne Simard",
         "image": "https://covers.openlibrary.org/b/id/12389240-L.jpg",
+        "url": "https://openlibrary.org/works/OL23768406W/Finding_the_Mother_Tree?edition=key%3A/books/OL35689227M",
         "readStatus": "read"
         },
         {
         "title": "Neurotribes",
         "author": "Steve Silberman",
         "image": "https://covers.openlibrary.org/b/id/9423493-L.jpg",
+        "url": "https://openlibrary.org/works/OL17203015W/Neurotribes?edition=key%3A/books/OL28039242M",
         "readStatus": "read"
         },
         {
         "title": "The Overstory",
         "author": "Richard Powers",
         "image": "https://covers.openlibrary.org/b/id/15122019-L.jpg",
+        "url": "https://openlibrary.org/works/OL19074847W/The_Overstory?edition=key%3A/books/OL29770272M",
         "readStatus": "read"
         },
         {
         "title": "How to Build a Shed",
         "author": "Sally Coulthard",
         "image": "https://covers.openlibrary.org/b/id/11299525-L.jpg",
+        "url": "https://openlibrary.org/works/OL21357701W/How_to_Build_a_Shed?edition=key%3A/books/OL28929668M",
         "readStatus": "read"
         },
         {
         "title": "Four Season Harvest",
         "author": "Eliot Coleman",
         "image": "https://covers.openlibrary.org/b/id/2093050-L.jpg",
+        "url": "https://openlibrary.org/works/OL21341482W/Four-Season_Harvest?edition=key%3A/books/OL8713894M",
         "readStatus": "read"
         },
         {
         "title": "Tuesdays with Morrie",
         "author": "Mitch Albom",
         "image": "https://covers.openlibrary.org/b/id/12560509-L.jpg",
+        "url": "https://openlibrary.org/works/OL1822313W/Tuesdays_with_Morrie?edition=key%3A/books/OL45966982M",
         "readStatus": "read"
         },
         {
         "title": "Where the Deer and Antelope Play",
         "author": "Nick Offerman",
         "image": "https://covers.openlibrary.org/b/id/12198645-L.jpg",
+        "url": "https://openlibrary.org/works/OL24477620W/Where_the_Deer_and_the_Antelope_Play?edition=key%3A/books/OL33823316M",
         "readStatus": "read"
         },
         {
@@ -64,30 +72,35 @@
         "title": "Leonardo da Vinci",
         "author": "Walter Isaacson",
         "image": "https://covers.openlibrary.org/b/id/14719954-L.jpg",
+        "url": "https://openlibrary.org/works/OL17802920W/Leonardo_da_Vinci?edition=key%3A/books/OL29763511M",
         "readStatus": "read"
         },
         {
         "title": "The Wise Man's Fear",
         "author": "Patrick Rothfuss",
         "image": "https://covers.openlibrary.org/b/id/12518396-L.jpg",
+        "url": "https://openlibrary.org/works/OL8479869W/The_Wise_Man%E2%80%99s_Fear?edition=key%3A/books/OL24586431M",
         "readStatus": "read"
         },
         {
         "title": "The Name of the Wind",
         "author": "Patrick Rothfuss",
         "image": "https://covers.openlibrary.org/b/id/12065980-L.jpg",
+        "url": "https://openlibrary.org/works/OL8479867W/The_Name_of_the_Wind?edition=key%3A/books/OL35447857M",
         "readStatus": "read"
         },
         {
         "title": "Cooked: A Natural History of Transformation",
         "author": "Michael Pollan",
         "image": "https://covers.openlibrary.org/b/id/12624882-L.jpg",
+        "url": "https://openlibrary.org/works/OL18155669W/Cooked?edition=key%3A/books/OL37047220M",
         "readStatus": "read"
         },
         {
         "title": "Ishmael",
         "author": "Daniel Quinn",
         "image": "https://covers.openlibrary.org/b/id/367924-L.jpg",
+        "url": "https://openlibrary.org/works/OL61787W/Ishmael?edition=key:/books/OL413439M",
         "readStatus": "read"
         }
     ]

@@ -12,7 +12,7 @@ export function displayProjectsContent() {
         `).join('');
 
         return `
-            <div class="project-card collapsed card flex-align-center padding-xl card--surface card--interactive">
+            <div class="project-card collapsed card flex-align-center padding-lg card--surface card--interactive">
                 <div class="full-width">
                     <div class="project-card-header flex-column flex-align-start gap-md margin-bottom-md cursor-pointer">
                         <div class="flex-row gap-md space-between full-width">
@@ -51,7 +51,7 @@ export function displayProjectsContent() {
                 <h3>FEATURED PROJECTS <span class="weight-normal muted">🚧 <i>Under Construction</i> 🚧</span></h3>
                 <p>I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>
             </div>
-            <div class="flex-row space-between flex-align-stretch flex-wrap gap-md margin-top-xl full-width" id="projects-list">
+            <div class="gap-md margin-top-xl full-width" id="projects-list">
                 ${projectsHtml}
             </div>
         </section>

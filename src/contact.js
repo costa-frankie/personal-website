@@ -11,10 +11,16 @@ export function displayContactContent() {
             <article class="contact-card card card--surface gap-lg padding-xl">
                 <div class="flex-row gap-lg">
                     <img src="${avatar}" class="avatar shadow-sm circular" alt="Personal photo" />
-                    <div class="flex-column justify-center">
-                        <h2 class="card-heading font-special text-h3">Frankie Costa</h2>
-                        <h2 class="text-h5 muted font-special">Product Manager</h2>
-                    </div>
+                    <div class="flex-column justify-center gap-sm">
+                        <div class="flex-column">
+                            <h4 class="text-h4">Frankie Costa</h4>
+                            <span class="text-p muted">Product Manager</span>
+                        </div>
+                        <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn flex-row justify-center flex-align-center gap-sm">
+                            <p>Connect on LinkedIn</p>
+                        </a>
+                    </div>                    
+
                 </div>
                 <div class="flex-column flex-align-start gap-sm">
                     <div class="muted">
@@ -29,26 +35,16 @@ export function displayContactContent() {
                 </div>
                 <div class="cluster readable border-vert-subtle padding-vert-lg">
                     <span class="lozenge default-lozenge">Product strategy</span> 
-                    <span class="lozenge default-lozenge">Agile methodologies</span>  
+                    <span class="lozenge default-lozenge">Agile</span>  
                     <span class="lozenge default-lozenge">Scrum</span> 
-                    <span class="lozenge default-lozenge">Product requirements</span>
                     <span class="lozenge default-lozenge">Roadmap planning</span>
-                    <span class="lozenge default-lozenge">OKRs</span>
-                    <span class="lozenge default-lozenge">UX Prototyping</span> 
-                    <span class="lozenge default-lozenge">Collaboration</span> 
+                    <span class="lozenge default-lozenge">UX prototyping</span> 
                     <span class="lozenge default-lozenge">B2B SaaS</span>  
                     <span class="lozenge default-lozenge">Enterprise software</span>
                     <span class="lozenge default-lozenge">User research</span> 
                     <span class="lozenge default-lozenge">APIs</span> 
                     <span class="lozenge default-lozenge">Data visualization</span> 
                     
-                </div>
-                <div class="flex-column gap-lg flex-align-center">
-                    <p class="centered muted">Interested in getting in touch? Let's connect!</p>
-                    <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="btn connect-btn flex-row justify-center flex-align-center gap-sm ">
-                        <img src="${inImage}" width="32px" height="32px" alt="LinkedIn" />
-                        <p>Connect on LinkedIn</p>
-                    </a>
                 </div>
             </article>
             <div class="paper absolute" data-paper="1"></div>
