@@ -1,4 +1,4 @@
-# my-personal-website
-A website I built to share my professional experience, projects I've worked on.
+# About this site
+A website I built to share my professional experience and projects I've worked on.
 
 
