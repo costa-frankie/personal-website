@@ -873,6 +873,7 @@ footer {
 .border-l-accent { border-left-style: solid; border-left-width: var(--border-w-4); border-color: var(--border-accent) }
 .border-l-default { border-left-style: solid; border-left-width: var(--border-w-4); border-color: var(--color-secondary-text) }
 .border-black { border-color: var(--border-black)}
+.border-top-subtle { border-top: 1px solid var(--border-subtle) }
 .border-vert-subtle { border-bottom: 1px solid var(--border-subtle); border-top: 1px solid var(--border-subtle) }
 
 .text-accent {
@@ -1005,22 +1006,31 @@ footer {
     }
 } */
 
-@media (max-width: 64rem) { /* (16px * 64rem) = 1024px */
+@media (max-width: 1024px) { /* ~64rem */
     :root {
         font-size: 93.75%;
     }
 }
 
-@media (max-width: 48rem) { /* (16px * 48rem) = 768px */
+@media (max-width: 768px) { /* ~48rem */
     :root {
         font-size: 87.5%;
     }
 }
 
-@media (max-width: 30rem) { /* (16px * 30rem) = 480px */
+@media (max-width: 480px) { /* ~30rem */
     :root {
         font-size: 81.25%;
+        --space-3xl: 2rem;
+        --space-2xl: 1.5rem
     }
 
-    
+    .width-80 {
+        width: 100%;
+    }
+
+    .paper {
+        display: none;
+    }
+
 }

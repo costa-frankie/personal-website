@@ -8,15 +8,15 @@ export function displayContactContent() {
     <section class="flex-column gap-md flex-align-center width-80">
         <h1 class="content-title pin-left">Contact</h1>
         <div class="contact-card-stack relative">
-            <article class="contact-card card card--surface gap-lg padding-xl">
-                <div class="flex-row gap-lg">
+            <article class="contact-card card card--surface flex-column flex-align-center gap-lg padding-xl ">
+                <div class="flex-row gap-lg flex-wrap justify-center">
                     <img src="${avatar}" class="avatar shadow-sm circular" alt="Personal photo" />
                     <div class="flex-column justify-center gap-sm">
                         <div class="flex-column">
                             <h4 class="text-h4">Frankie Costa</h4>
                             <span class="text-p muted">Product Manager</span>
                         </div>
-                        <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn flex-row justify-center flex-align-center gap-sm">
+                        <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn gap-sm">
                             <p>Connect on LinkedIn</p>
                         </a>
                     </div>                    
@@ -33,7 +33,7 @@ export function displayContactContent() {
                         <p class="text-p flex-row flex-align-center gap-sm"><span class="material-symbols-outlined text-info">home_work</span>Open to remote or hybrid roles</p>
                     </div>
                 </div>
-                <div class="cluster readable border-vert-subtle padding-vert-lg">
+                <div class="cluster justify-center readable border-top-subtle padding-vert-lg">
                     <span class="lozenge default-lozenge">Product strategy</span> 
                     <span class="lozenge default-lozenge">Agile</span>  
                     <span class="lozenge default-lozenge">Scrum</span> 
@@ -44,7 +44,6 @@ export function displayContactContent() {
                     <span class="lozenge default-lozenge">User research</span> 
                     <span class="lozenge default-lozenge">APIs</span> 
                     <span class="lozenge default-lozenge">Data visualization</span> 
-                    
                 </div>
             </article>
             <div class="paper absolute" data-paper="1"></div>
