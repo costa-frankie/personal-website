@@ -666,7 +666,7 @@ nav {
 
 .bookshelf-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     
 }
@@ -678,6 +678,8 @@ nav {
     border: 1px solid var(--light-grey);
     background-color: var(--off-white);
     box-shadow: var(--shadow-xs);
+    border-radius: .5rem;
+    overflow: hidden;
 }
 
 .book-image {
@@ -690,7 +692,7 @@ nav {
 }
 
 .title-label {
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--primary-deep-navy);
 }
@@ -702,7 +704,7 @@ nav {
 
 
 .book-meta {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .inline {

@@ -14,17 +14,22 @@ function calculateExperienceMonths() {
 export function displayAboutContent() {
     const contentContainer = document.querySelector('#content');
     const content = `
-        <div class="flex-column flex-align-self-center gap-2xl">
-            <section class="flex-column flex-align-start gap-xl">
-                <h1 class="content-title pin-left">About me</h1>
-                <div class="flex-row flex-align-start gap-3xl flex-wrap" id="hero-container">
-                        <div id="flex-column gap-md">
+        <div class="flex-column flex-align-center width-80 gap-xl">
+            <h1 class="content-title full-width">About me</h1>
+            <section class="flex-row justify-center flex-align-start gap-md flex-wrap flex-wrap-reverse" id="hero-container">
+                        <div class="flex-column gap-md">
                             <h1 class="text-hero upper font-special">Frankie Costa</h1>
-                            <div class="text-hero-body text-h3 flex-column gap-md text-h3">
-                                <p class="">Experienced <span id="what-am-i" class="rounded-sm bold info-text"></span> 
-                                <p>who <span id="typed-text" class="padding-horizon-sm rounded-sm tag-default"></span></p>
-                                <p>I help product teams build intelligent solutions.</p>
-                                <p>I'm currently expanding my full-stack web development skills and seeking my next opportunity.</p>
+                            <div class="text-hero-body">
+                                <div class="grid grid-cols-2-hero gap-sm text-h3 flex-align-center">
+                                    <p class="col-span-1 text-right">Experienced</p>
+                                    <div class="col-span-2">
+                                        <span class=" bold" id="what-am-i"></span></><span>...</span>
+                                    </div>
+                                    <p class="col-span-1 text-right">...who</p>
+                                    <p class="col-span-2 padding-horizon-sm tag-default rounded-sm" id="typed-text"></p>
+                                </div>
+                                <br>
+                                <p class="text-h3">I help teams solve the right problems and build user-focused solutions.</p>
                             </div>
                         </div>
                         <div class="flex-column gap-sm centered">
@@ -35,10 +40,10 @@ export function displayAboutContent() {
                                 <p><span class="bullet">●</span> Open to work</p>
                             </div>
                         </div>
-                </div>
+               
             </section>
-            <section id="my-story-container" class="flex-column flex-align-center flex-align-self-center gap-sm padding-horizon-md padding-vert-2xl">
-                <div id="my-story-content" class="readable flex-column gap-lg padding-horizon-3xl padding-vert-2xl theme-nav">
+            <section class="flex-column flex-align-center gap-sm padding-horizon-md padding-vert-2xl" id="my-story-container" >
+                <div class="readable flex-column gap-lg padding-horizon-3xl padding-vert-2xl theme-nav" id="my-story-content">
                     <h1 class="text-h1 full-width centered font-mono">My story</h1>
                     <p class="text-h5 full-width font-mono">I started in product management because I had a desire to be part of a team 
                         building innovative things. I wanted to understand the details of how people come together to make lovable software. 
@@ -64,7 +69,7 @@ export function displayAboutContent() {
     contentContainer.innerHTML = content;
 
     new Typed('#what-am-i', {
-        strings: ['product manager...', 'product owner...', 'product leader...', 'product builder...'],
+        strings: ['product manager','product owner', 'product leader', 'product builder'],
         typeSpeed: 100,
         backSpeed: 30,
         backDelay: 3000,
@@ -72,21 +77,22 @@ export function displayAboutContent() {
         showCursor: false
     });
 
-    const typedTextClasses = [
-        'tag-technical',  // codes...
-        'tag-technical',  // prototypes.
-        'tag-design',     // designs.
-        'tag-product',    // ships.
-        'tag-default',    // researches..
-        'tag-technical',  // tests.
-        'tag-default',    // listens...
-        'tag-design',     // creates.
-        'tag-product',    // analyzes.
+    const typedStrings = [
+        { text: 'codes.',      cls: 'tag-technical' },
+        { text: 'designs.',    cls: 'tag-design' },
+        { text: 'ships.',      cls: 'tag-product' },
+        { text: 'prototypes.', cls: 'tag-technical' },
+        { text: 'researches.', cls: 'tag-default' },
+        { text: 'creates.',    cls: 'tag-design' },
+        { text: 'tests.',      cls: 'tag-technical' },
+        { text: 'analyzes.',     cls: 'tag-product' },
+        { text: 'listens.',    cls: 'tag-default' },
+        { text: 'wireframes.',    cls: 'tag-design' },
     ];
     const tagClasses = ['tag-default', 'tag-design', 'tag-technical', 'tag-product'];
 
     new Typed('#typed-text', {
-        strings: ['codes...', 'prototypes...', 'designs...', 'ships...', 'researches...', 'tests...', 'creates...', 'analyzes.', 'listens...'],
+        strings: typedStrings.map(s => s.text),
         typeSpeed: 100,
         backSpeed: 30,
         backDelay: 1500,
@@ -94,7 +100,7 @@ export function displayAboutContent() {
         showCursor: false,
         preStringTyped(arrayPos, self) {
             self.el.classList.remove(...tagClasses);
-            self.el.classList.add(typedTextClasses[arrayPos]);
+            self.el.classList.add(typedStrings[arrayPos].cls);
         }
     });
 }
