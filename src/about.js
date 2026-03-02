@@ -21,13 +21,13 @@ export function displayAboutContent() {
                             <h1 class="text-hero upper ibm-plex-serif-semibold">Frankie Costa</h1>
                             <div class="text-hero-body">
                                 <div class="grid grid-cols-2-hero gap-sm text-h3 flex-align-center">
-                                    <p class="col-span-1 text-right">Experienced</p>
+                                    <p class="col-span-1 text-right muted">Experienced</p>
                                     <div class="col-span-2">
                                         <span class=" bold" id="what-am-i"></span></>
                                     </div>
                                 </div>
-                                <div class="grid grid-cols-2-hero-2 gap-sm text-h3 flex-align-center margin-right-2xl">
-                                    <p class="col-span-1 text-right"> who</p>
+                                <div class="grid grid-cols-2-hero-2 gap-sm text-h3 flex-align-center">
+                                    <p class="col-span-1 text-right"><span class="muted"> who</span></p>
                                     <p class="col-span-2 padding-horizon-sm tag-default rounded-sm" id="typed-text"></p>
                                 </div>
                                 <br>

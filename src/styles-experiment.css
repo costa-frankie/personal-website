@@ -504,7 +504,7 @@ a:hover { text-decoration: underline }
 .grid { display: grid }
 .grid-cols-2 { grid-template-columns: repeat (2, minmax(1fr)) }
 .grid-cols-2-hero { grid-template-columns: max-content 1fr}
-.grid-cols-2-hero-2 { grid-template-columns: 1fr 12ch }
+.grid-cols-2-hero-2 { grid-template-columns: 4ch 1fr }
 
 .col-span-1 {  grid-column: 1 }
 .col-span-2 { grid-column: 2 }
