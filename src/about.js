@@ -18,14 +18,16 @@ export function displayAboutContent() {
             <h1 class="content-title full-width">About me</h1>
             <section class="flex-row justify-center flex-align-start gap-md flex-wrap flex-wrap-reverse" id="hero-container">
                         <div class="flex-column gap-md">
-                            <h1 class="text-hero upper font-special">Frankie Costa</h1>
+                            <h1 class="text-hero upper ibm-plex-serif-semibold">Frankie Costa</h1>
                             <div class="text-hero-body">
                                 <div class="grid grid-cols-2-hero gap-sm text-h3 flex-align-center">
                                     <p class="col-span-1 text-right">Experienced</p>
                                     <div class="col-span-2">
-                                        <span class=" bold" id="what-am-i"></span></><span>...</span>
+                                        <span class=" bold" id="what-am-i"></span></>
                                     </div>
-                                    <p class="col-span-1 text-right">...who</p>
+                                </div>
+                                <div class="grid grid-cols-2-hero-2 gap-sm text-h3 flex-align-center margin-right-2xl">
+                                    <p class="col-span-1 text-right"> who</p>
                                     <p class="col-span-2 padding-horizon-sm tag-default rounded-sm" id="typed-text"></p>
                                 </div>
                                 <br>
@@ -34,7 +36,7 @@ export function displayAboutContent() {
                         </div>
                         <div class="flex-column gap-sm centered">
                             <div class="img-container open-border border-4 circular flex-column flex-align-center justify-center">
-                                <img src="${foto}" class="hero-photo circular shadow-md trans-all-200" alt="Personal photo" />
+                                <img src="${foto}" class="hero-photo circular shadow-md trans-all-200 margin-md" alt="Personal photo" />
                             </div>
                            <div class="open-border border-1 radius-2 open-to-work">
                                 <p><span class="bullet">●</span> Open to work</p>
@@ -78,16 +80,16 @@ export function displayAboutContent() {
     });
 
     const typedStrings = [
-        { text: 'codes.',      cls: 'tag-technical' },
-        { text: 'designs.',    cls: 'tag-design' },
-        { text: 'ships.',      cls: 'tag-product' },
-        { text: 'prototypes.', cls: 'tag-technical' },
-        { text: 'researches.', cls: 'tag-default' },
-        { text: 'creates.',    cls: 'tag-design' },
-        { text: 'tests.',      cls: 'tag-technical' },
-        { text: 'analyzes.',     cls: 'tag-product' },
-        { text: 'listens.',    cls: 'tag-default' },
-        { text: 'wireframes.',    cls: 'tag-design' },
+        { text: 'codes',      cls: 'tag-technical' },
+        { text: 'designs',    cls: 'tag-design' },
+        { text: 'ships',      cls: 'tag-product' },
+        { text: 'prototypes', cls: 'tag-technical' },
+        { text: 'researches', cls: 'tag-default' },
+        { text: 'creates',    cls: 'tag-design' },
+        { text: 'tests',      cls: 'tag-technical' },
+        { text: 'analyzes',     cls: 'tag-product' },
+        { text: 'listens',    cls: 'tag-default' },
+        { text: 'wireframes',    cls: 'tag-design' },
     ];
     const tagClasses = ['tag-default', 'tag-design', 'tag-technical', 'tag-product'];
 

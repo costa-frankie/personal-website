@@ -248,6 +248,8 @@ html {
     scroll-padding-top: 7rem;
 }
 
+/*MARK: Ext fonts  */
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -272,6 +274,93 @@ a:hover .material-symbols-outlined {
     font-weight: 400;
     font-style: normal;
 }
+
+/*MARK: IBM PLEX */
+
+.ibm-plex-serif-thin {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-extralight {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-light {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-regular {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-medium {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-semibold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-bold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-thin-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-extralight-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-light-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-regular-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-medium-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-semibold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-bold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 
 body {
     color: var(--color-primary-text);
@@ -337,10 +426,10 @@ a:hover { text-decoration: underline }
     max-width: 8ch;
     color: var(--border-brand);
     line-height: 1;
-    -webkit-text-stroke: 1px var(--color-hero-text-accent);
+    -webkit-text-stroke: 3px var(--color-hero-text-accent);
 }
 
-@media (max-width: 1100px) { 
+@media (max-width: 1120px) { 
     .text-hero { text-align: center } 
 }
 
@@ -415,6 +504,7 @@ a:hover { text-decoration: underline }
 .grid { display: grid }
 .grid-cols-2 { grid-template-columns: repeat (2, minmax(1fr)) }
 .grid-cols-2-hero { grid-template-columns: max-content 1fr}
+.grid-cols-2-hero-2 { grid-template-columns: 1fr 12ch }
 
 .col-span-1 {  grid-column: 1 }
 .col-span-2 { grid-column: 2 }
@@ -440,6 +530,9 @@ a:hover { text-decoration: underline }
 .margin-bottom-sm { margin-bottom: var(--space-sm) }
 .margin-bottom-md { margin-bottom: var(--space-md) }
 .margin-bottom-xl { margin-bottom: var(--space-xl) }
+.margin-right-2xl { margin-right: var(--space-2xl) }
+
+.margin-md { margin: var(--space-md) }
 
 /* MARK: Padding */
 
@@ -1021,8 +1114,8 @@ footer {
 @media (max-width: 480px) { /* ~30rem */
     :root {
         font-size: 81.25%;
-        --space-3xl: 2rem;
-        --space-2xl: 1.5rem
+        --space-3xl: 1.25rem;
+        --space-2xl: 1rem
     }
 
     .width-80 {
