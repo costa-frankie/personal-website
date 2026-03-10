@@ -739,12 +739,10 @@ a:hover { text-decoration: underline }
 footer {
     min-height: 20vh;
     color: var(--color-secondary-text);
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0) 0%,      /* Transparent at the very top */
-        rgba(255, 255, 255, 0) 15%,     /* Stay transparent for the first 15% */
-        var(--primary-accent-10) 100%                    /* Fade into the footer's color towards the bottom */
-    );
+    background-image: url('./assets/cascade-lines.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .cluster {

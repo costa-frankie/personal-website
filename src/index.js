@@ -6,6 +6,7 @@ import { displayChangelogContent } from './changelog.js';
 import { displayBookshelfContent } from './bookshelf.js';
 import { displayProjectsContent } from './projects.js';
 
+
 document.addEventListener('DOMContentLoaded', (event) => {
     loadInterfaceElements();
 });
