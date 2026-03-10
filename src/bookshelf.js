@@ -21,11 +21,11 @@ export function displayBookshelfContent() {
     const container = document.querySelector('#content');
 
     const bookshelfHTML = data.books.map(book => /*html*/ `
-            <div class="book-entry flex-column gap-sm">
-                <img src="${resolveImage(book.image)}" class="book-image" alt="Cover of ${book.title}" />
-                <div class="book-meta flex-column gap-sm">
-                    <p class="title-label">${book.title}</p>
-                    <p class="author-label">by ${book.author}</p>
+            <div class="flex-column gap-sm theme-nav overflow-hidden" data-bookId="${book.index}">
+                <img src="${resolveImage(book.image)}" class="book-image full-width aspect-2-3 object-cover vertical-align-middle flex-align-self-center" alt="Cover of ${book.title}" />
+                <div class="flex-column gap-sm padding-sm">
+                    <p class="bold">${book.title}</p>
+                    <p class="muted text-slightly-smaller">by ${book.author}</p>
                 </div>
             </div>
         `).join('');
@@ -33,16 +33,16 @@ export function displayBookshelfContent() {
     container.innerHTML = `
         <section class="flex-column width-80">
             <h1 class="content-title full-width">My Bookshelf</h1>
-            <div class="summary-banner info">
-                <p>Reading allows me to more clearly understand the world and the systems that comprise it. These books range from permaculture to neuroscience to fantasy and beyond. They all taught me how to think differently and view things from a different perspective.</p>
+            <div class="banner banner--info padding-md full-width margin-bottom-xl border-2">
+                <p>Reading helps me understand the world and its complex systems. Below are some books I've read. They range from permaculture to neuroscience to fantasy and beyond. They all taught me how to think differently and view things from a different perspective.</p>
             </div>
-            <div class="bookshelf-grid">
+            <div class="grid gap-md" id="bookshelf-container">
                 ${bookshelfHTML}
             </div>
         </section>
     `;
 
-    container.querySelectorAll('.book-entry').forEach((el, i) => {
+    container.querySelectorAll('[data-bookId]').forEach((el, i) => {
         const url = data.books[i].url;
         if (url) {
             el.style.cursor = 'pointer';

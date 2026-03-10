@@ -28,7 +28,7 @@ export function displayAboutContent() {
                                 </div>
                                 <div class="grid grid-cols-2-hero-2 gap-sm text-h3 flex-align-center">
                                     <p class="col-span-1 text-right"><span class="muted"> who</span></p>
-                                    <p class="col-span-2 padding-horizon-sm tag-default rounded-sm" id="typed-text"></p>
+                                    <p class="col-span-2 padding-horizon-sm tag--default rounded-sm" id="typed-text"></p>
                                 </div>
                                 <br>
                                 <p class="text-h3">I help teams solve the right problems and build user-focused solutions.</p>
@@ -50,9 +50,9 @@ export function displayAboutContent() {
                     <p class="text-h5 full-width font-mono">I started in product management because I had a desire to be part of a team 
                         building innovative things. I wanted to understand the details of how people come together to make lovable software. 
                         Over the last ${calculateExperienceMonths()} months, I've developed into a product manager who 
-                        <span class="tag-design">designs</span>, 
-                        <span class="tag-technical">codes</span> and 
-                        <span class="tag-product">strategizes</span>, 
+                        <span class="tag--design">designs</span>, 
+                        <span class="tag--technical">codes</span> and 
+                        <span class="tag--product">strategizes</span>, 
                         and I'm always looking to add to that list.
                     </p>
                     <p class="text-h5 full-width font-mono">At <a href="https://www.mitchell.com/" target="_blank">Mitchell International</a>, 
@@ -80,18 +80,18 @@ export function displayAboutContent() {
     });
 
     const typedStrings = [
-        { text: 'codes',      cls: 'tag-technical' },
-        { text: 'designs',    cls: 'tag-design' },
-        { text: 'ships',      cls: 'tag-product' },
-        { text: 'prototypes', cls: 'tag-technical' },
-        { text: 'researches', cls: 'tag-default' },
-        { text: 'creates',    cls: 'tag-design' },
-        { text: 'tests',      cls: 'tag-technical' },
-        { text: 'analyzes',     cls: 'tag-product' },
-        { text: 'listens',    cls: 'tag-default' },
-        { text: 'wireframes',    cls: 'tag-design' },
+        { text: 'codes',      cls: 'tag--technical' },
+        { text: 'designs',    cls: 'tag--design' },
+        { text: 'ships',      cls: 'tag--product' },
+        { text: 'prototypes', cls: 'tag--technical' },
+        { text: 'researches', cls: 'tag--default' },
+        { text: 'creates',    cls: 'tag--design' },
+        { text: 'tests',      cls: 'tag--technical' },
+        { text: 'analyzes',     cls: 'tag--product' },
+        { text: 'listens',    cls: 'tag--default' },
+        { text: 'wireframes',    cls: 'tag--design' },
     ];
-    const tagClasses = ['tag-default', 'tag-design', 'tag-technical', 'tag-product'];
+    const tagClasses = ['tag--default', 'tag--design', 'tag--technical', 'tag--product'];
 
     new Typed('#typed-text', {
         strings: typedStrings.map(s => s.text),

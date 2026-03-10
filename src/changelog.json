@@ -11,8 +11,8 @@
                 "heading": "What's new",
                 "items": [
                     "Completed <a href=\"https://www.udemy.com/course/javascript-beginners-complete-tutorial/\" target=\"_blank\">The Modern Javascript Bootcamp</a>, covering fundamentals, async programming, API integration, Node.js.",
-                    "Built v1 of personal website from scratch using vanilla HTML/CSS/JS.",
-                    "Created a personal weather dashboard using weather.gov and publically available web APIs.",
+                    "Built v1 of personal website from scratch using HTML/CSS/JS.",
+                    "Created a personal Node.js weather app using weather.gov and publically available web APIs.",
                     "Built various browser-based applications and games to demonstrate knowledge of Javascript & full stack web development while completing <a href=\"https://www.theodinproject.com/about\" target=\"_blank\">The Odin Project</a>.",
                     "Added smart home, home media server and OTA DVR projects."                    
                 ]
@@ -21,14 +21,14 @@
                 "heading": "Improvements",
                 "items": [
                     "Expanded creative problem solving skills with hands-on project-based learning.",
-                    "Increased career clarity, seeking roles that combine creativity, technical depth and interesting challenges.",
-                    "Added smart home automation to optimize morning coffee routine and provide daily caffeine to household members."
+                    "Increased career clarity, seeking roles that combine creativity, technical depth and mission-driven work.",
+                    "Added smart home automation to optimize morning coffee routine and provide daily caffeine on-time to household members."
                 ]
             },
             {
                 "heading": "Bug fixes",
                 "items": [
-                    "Recovery and reflection have reduced burnout that had accumulated from v3.0.0.",
+                    "Recovery and reflection have reduced burnout.",
                     "Fixed frustration with not being able to build things directly by adding Javascript skills, enabling independent creation."
                 ]
             }
@@ -105,18 +105,18 @@
             {
                 "heading": "What's new",
                 "items": [
-                    "Added experience serving as PM for 3 Agile teams",
-                    "You can now launch a Voice-of-the-Customer(VoC) program from scratch by gathering enough customer insights and sharing product analytics data with stakeholders.",
-                    "User Acceptance Testing (UAT) suite added to prevent post-launch issues."
+                    "Manage product backlogs for up to 3 Agile teams.",
+                    "Voice-of-the-Customer(VoC) program launched, enabling key product analytics and vital user data insight sharing.",
+                    "User Acceptance Testing (UAT) suite added to ensure smooth product rollouts and prevent post-launch issues."
                 ]
             },
             {
                 "heading": "Improvements",
                 "items": [
-                    "Strategic planning and roadmapping have improved with better understanding of implementation details.",
+                    "Strategic planning and roadmapping have improved with thorough understanding of implementation details.",
                     "Influence increased within the organization, enabling dependency coordination and cross-team prioritization.",
                     "Mentorship skills can be activated to share expert knowledge and train new PMs.",
-                    "Faster customer feedback response times with mastery of in-app product feedback tools."
+                    "Enabled faster customer feedback response times with mastery of in-app product feedback tools."
                 ]
             },
             {
@@ -130,7 +130,7 @@
                 "heading": "Known issues",
                 "items": [
                     "Cross-team coordination remains challenging.",
-                    "Pushback from some departments over unclear expectations around unstructured VoC program."
+                    "Pushback from other internal teams over unclear expectations around unstructured cross-functional program."
                 ]
             }
         ]
@@ -144,7 +144,7 @@
             {
                 "heading": "What's new",
                 "items": [
-                    "After being promoted, Frankie can now be be deployed and embedded in an agile development team.",
+                    "Can now be deployed and embedded in an agile development team.",
                     "New Coordination suite added for SAFe Agile Framework integration. Includes sprint planning, retrospectives, daily standups and backlog grooming.",                 
                     "Added usery story authoring capabilities.",
                     "UX collaboration module activated for user discovery, ideation and interactive prototyping."                
@@ -162,8 +162,8 @@
             {
                 "heading": "Bug fixes",
                 "items": [
-                    "Reduced anxiety related to imposter syndrome through supportive team environment that encouraged 'learning-by-doing'",
-                    "Fixed tendency to nod along when confused. Frankie now asks questions when the meaning of something is unknown."
+                    "Reduced anxiety related to imposter syndrome through supportive team environment that encouraged 'learning-by-doing'.",
+                    "Fixed tendency to nod along when confused and not ask the necessary questions when the meaning of something is unknown."
                 ]
             },
             {
@@ -171,7 +171,7 @@
                 "items": [
                     "Difficulty saying 'no' to decline customer requests still persists.",
                     "Priorization framework incomplete. Trade-off evaluation still requires additional resources.",
-                    "Project specifications lack prototyping capabilities.",
+                    "Project specifications lack interactive prototyping capabilities.",
                     "SAFe practices are not yet fully ingrained."
                 ]
             }
@@ -188,7 +188,7 @@
                 "items": [
                     "Added experience in the collision repair and auto insurance software industry.",
                     "Custom reporting and data visualization in Tableau capabilities are now available.",
-                    "New Travel Package can be enabled to deliver insightful presentations to key accounts across the United States.",
+                    "New Travel Package can be enabled to deliver insightful presentations to key clients across the United States.",
                     "Added cross-functional integration with call centers, third-party vendors and internal teams for Voice-of-the-Customer feedback loops.",
                     "Established rapport with product, engineering, and sales team leaders."
                 ]
@@ -208,15 +208,14 @@
                 "heading": "Bug fixes",
                 "items": [
                     "Troubleshooting is now more stable when investigating and resolving client data issues.",
-                    "Resolved nervousness when advising collision shop owners and industry veterans with way more experience."
+                    "Resolved nervousness when advising shop owners and industry veterans with decades more experience."
                 ]
             },
             {
                 "heading": "Known issues",
                 "items": [
-                    "Frustration level increases when valuable customer feedback is surfaced, but can't directly influence what actually gets prioritized.",
-                    "Ad hoc reporting dashboards for individual clients lacks automation and does not scale well.",
-                    "careerPath remains undefined. Internal testing is ongoing and has recently revealed a potential path forward. Stay tuned!",
+                    "Frustration level increases when not directly influencing what product improvements actually get prioritized.",
+                    "careerPath remains undefined.",
                     "Technology troubleshooting remains unstable when dealing with family members that rhyme with 'rad'."
                 ]
             }
@@ -262,17 +261,16 @@
             {
                 "heading": "What's new",
                 "items": [
-                    "New Bachelor of Arts degree in International Business from San Diego State University. Summa cum laude (that's not lorem ipsum). Includes emphases in Marketing, Spanish & Latin America.",
+                    "New Bachelor of Arts degree in International Business from San Diego State University. Includes emphases in Marketing, Spanish & Latin America.",
                     "Added international experience at Universidad del Desarrollo, Santiago, Chile.",
-                    "Laundry self-sufficiency unlocked"
+                    "Laundry self-sufficiency unlocked."
                 ]
             },
             {
                 "heading": "Improvements",
                 "items": [
-                    "Career clarity improved after identifying desire to help others, leverage technology, understand human behavior and solve complex problems creatively,",
-                    "Team collaboration skills added",
-                    "Self-awareness now recognizes that college is a tool, not a silver bullet for life preparation.",
+                    "Career clarity improved after identifying desire to help others, leverage technology, understand human behavior and solve complex problems creatively.",
+                    "Team collaboration skills added.",
                     "You'll notice increased independence and confidence levels when operating outside of the Comfort Zone, even when locale is set to non-US regions.",
                     "The Spanish language pack (beta) upgrade now includes fast-paced Chilean Spanish. Pronouncing the final \"s\" sound is now optional, ¿Cachai?",
                     "Nutritional diversity expanded to include vegetables and sushi. Eggs remain unsupported in most formats."
@@ -282,7 +280,7 @@
                 "heading": "Bug fixes",
                 "items": [
                     "Resolved fear of surviving independently in foreign environments.",
-                    "Fixed a problem where Procrastination Mode would randomly activate in team projects, causing delays. Note: some uninspiring solo projects are still vulnerable to delays."
+                    "Fixed a problem where Procrastination Mode would randomly activate in team projects, causing delays."
                 ]
             }
         ]
@@ -295,7 +293,6 @@
                 {
                     "heading": "Core features",
                     "items": [
-                        "All Star Personality (as voted by peers in the yearbook)",
                         "Strong performance in academic environments",
                         "Proficient in absorbing life lessons through history teachers, MTV, Harry Potter and conscious underground hip hop lyrics"
                     ]

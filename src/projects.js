@@ -16,7 +16,7 @@ export function displayProjectsContent() {
                 <div class="full-width">
                     <div class="project-card-header flex-column flex-align-start gap-md margin-bottom-md cursor-pointer">
                         <div class="flex-row gap-md space-between full-width">
-                            <div class="icon-container">
+                            <div class="icon-container shadow-sm">
                                 <span class="material-symbols-outlined project-icon padding-sm rounded flex-row flex-align-center justify-center">${project.icon}</span>
                             </div>
                             <div class="grouped">
@@ -33,7 +33,7 @@ export function displayProjectsContent() {
                             <span class="text-h5 muted readable pretty-wrap">${project.description}</span>
                         </div>
                     </div>
-                    <div class="cluster">${project.tags.filter(t => t).map(tag => `<span class="lozenge default-lozenge">${tag}</span>`).join('')}</div>
+                    <div class="cluster">${project.tags.filter(t => t).map(tag => `<span class="tag tag--technical border-1">${tag}</span>`).join('')}</div>
                 </div>
                 <div class="project-content flex-column collapsed readable">
                     <div class="project-summary flex-column gap-xl">
@@ -47,9 +47,9 @@ export function displayProjectsContent() {
     container.innerHTML = `
         <section class="projects-container width-80">
             <h1 class="content-title pin-left">Projects</h1>
-            <div class="summary-banner flex-column gap-md highlight">
-                <h3>FEATURED PROJECTS <span class="weight-normal muted">🚧 <i>Under Construction</i> 🚧</span></h3>
-                <p>I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>
+            <div class="banner banner--warning flex-column gap-md full-width padding-md margin-bottom-xl" id="projects-banner">
+                <h3>Featured Projects <span class="weight-normal muted">🚧 <i>Under Construction</i> 🚧</span></h3>
+                <p class="text-p">I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>
             </div>
             <div class="gap-md margin-top-xl full-width" id="projects-list">
                 ${projectsHtml}

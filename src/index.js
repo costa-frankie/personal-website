@@ -1,5 +1,4 @@
 import './styles.css';
-import './styles-experiment.css';
 import { loadInterfaceElements } from './initialize.js';
 import { displayContactContent } from './contact.js';
 import { displayAboutContent } from './about.js';

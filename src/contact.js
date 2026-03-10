@@ -33,17 +33,26 @@ export function displayContactContent() {
                         <p class="text-p flex-row flex-align-center gap-sm"><span class="material-symbols-outlined text-info">home_work</span>Open to remote or hybrid roles</p>
                     </div>
                 </div>
-                <div class="cluster justify-center readable border-top-subtle padding-vert-lg">
-                    <span class="lozenge default-lozenge">Product strategy</span> 
-                    <span class="lozenge default-lozenge">Agile</span>  
-                    <span class="lozenge default-lozenge">Scrum</span> 
-                    <span class="lozenge default-lozenge">Roadmap planning</span>
-                    <span class="lozenge default-lozenge">UX prototyping</span> 
-                    <span class="lozenge default-lozenge">B2B SaaS</span>  
-                    <span class="lozenge default-lozenge">Enterprise software</span>
-                    <span class="lozenge default-lozenge">User research</span> 
-                    <span class="lozenge default-lozenge">APIs</span> 
-                    <span class="lozenge default-lozenge">Data visualization</span> 
+                <div class="cluster justify-center max-w-40-ch border-top-subtle padding-top-lg">
+                    <span class="tag tag--product tag--outlined">Product strategy</span> 
+                    <span class="tag tag--design tag--outlined">UX prototyping</span> 
+                    <span class="tag tag--product tag--outlined">Agile</span>  
+                    <span class="tag tag--product tag--outlined">Scrum</span> 
+                    <span class="tag tag--product tag--outlined">B2B SaaS</span>  
+                    <span class="tag tag--design tag--outlined">Interaction design</span> 
+                    <span class="tag tag--design tag--outlined">Wireframing</span> 
+                    <span class="tag tag--technical tag--outlined">HTML</span> 
+                    <span class="tag tag--technical tag--outlined">CSS</span> 
+                    <span class="tag tag--technical tag--outlined">Javascript</span> 
+                    <span class="tag tag--technical tag--outlined">Node.js</span> 
+                    <span class="tag tag--product tag--outlined">Roadmap planning</span>
+                    <span class="tag tag--product tag--outlined">Enterprise software</span>
+                    <span class="tag tag--design tag--outlined">Figma</span> 
+                    <span class="tag tag--design tag--outlined">Sketch</span> 
+                    <span class="tag tag--technical tag--outlined">APIs</span> 
+                    <span class="tag tag--design tag--outlined">User research</span> 
+                    <span class="tag tag--product tag--outlined">OKRs</span> 
+                    <span class="tag tag--product tag--outlined">Data visualization</span> 
                 </div>
             </article>
             <div class="paper absolute" data-paper="1"></div>

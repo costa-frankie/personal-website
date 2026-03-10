@@ -7,10 +7,10 @@
         "tags": ["Node.js", "RSS/XML", "Local networking", "Javascript", "HTML", "CSS" ],
         "summary": [
             { "heading": "Context:",    "content": "I wanted an easy way to play my favorite podcasts and radio stations from around the world without having to install an app from an appstore or pay for a subscription." },
-            { "heading": "Process:",    "content": "I built a Node.js app and configured it on my home server, allowing any client device on my network to stream my curated list of sound streams. I managed the firewall and router settings to assign a static DHCP reservation to my machine so that clients can always find the server." },
-            { "heading": "Outcome",     "content": "A lightweight streaming solution that eliminates daily friction and cognitive load by consolidating multiple audio streaming sources into a single, unified interface. By hosting the service locally, I can stream global radio and podcast feeds from any device. No more context switching between this podcast app and that music station." },
-            { "heading": "Learnings",   "content": "I learned about the podcast XML format, how RSS feeds work, and local networking configuration. I also experimented with Claude Code for this project to get a better understanding of current AI developer workflows and related UX patterns. I learned to <i>plan</i> up front with plan mode, <i>ask</i> clarifying questions to <i>iterate</i> on that plan and understand the technical approach, and finally <i>implement</i> the changes line-by-line." },
-            { "heading": "Next steps",  "content": "Make it easy to add new podcasts / radio stations. Consider containerizing it with Docker. Consider adding a 'Recently Played' or 'Favorites' feature." }
+            { "heading": "Process:",    "content": "I built a Node.js app and configured it on my home server, allowing any client device on my network to stream my curated list of sound streams." },
+            { "heading": "Outcome",     "content": "A lightweight streaming solution that eliminates daily friction and cognitive load by consolidating multiple audio streaming sources into a unified, easy-to-use interface. By hosting the service locally, I can stream global radio and podcast feeds from any device. No more context switching between this podcast app and that music station." },
+            { "heading": "Learnings",   "content": "I learned about the podcast XML format, how RSS feeds work, and local networking configuration. I also experimented with Claude Code for this project to get a better understanding of current AI developer workflows and related UX patterns. I learned to <i>plan</i> up front with plan mode, <i>ask</i> clarifying questions to <i>iterate</i> on that plan and understand the technical approach, before implementing the changes." },
+            { "heading": "Next steps",  "content": "Build an authenticated admin panel front-end to manage the list of saved podcasts / radio stations without having to go into the code. Containerize it with Docker. Add a database for 'Recently Played' or 'Favorites'." }
         ]
     },
     {
@@ -23,7 +23,7 @@
           { "heading": "Process",     "content": "I built a webpage with HTML/CSS/JS to display the current weather conditions, hourly and daily forecasts, air charts for data points including Air Quality Index (AQI). It leverages weather.gov and Open-Meteo APIs and parses the JSON responses and render the forecast information in a digestable, easy-to-read interface."},
           { "heading": "Outcome",     "content": "I pinned the weather dashboard in my browser tabs so the current forecast is a click away when I want to know what the weather is like. " },
           { "heading": "Learnings",   "content": "I enjoyed digging into the documentation for the chart.js implementation. I wanted to display some charts to better visualize the forecasts so this was a nice way to expand my Javascript capabilties." },
-          { "heading": "Next steps",  "content": "Revisit the layout and CSS. Incorporate more charts but style them to feel like they are more a part of the rest of the interface." }
+          { "heading": "Next steps",  "content": "Revisit the layout and CSS. Incorporate more charts but style them consistently with the rest of the interface." }
         ]
     },
     {
