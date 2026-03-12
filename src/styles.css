@@ -227,7 +227,7 @@
     --ff-serif: "Arvo", Georgia, serif;
     --ff-mono: 'Courier Prime', 'Courier New', Courier, monospace;
     --ff-heading: var(--ff-serif);
-    --ff-special: 'Special Elite', 'Courier Prime', 'Courier New', Courier, monospace;
+    --ff-special: 'IBM Plex Serif','Special Elite', 'Courier Prime', 'Courier New', Courier, monospace;
 
     --fs-h1: calc(1rem * pow(1.25, 4)); /* ~2.44rem */
     --fs-h2: calc(1rem * pow(1.25, 3)); /* ~1.95rem */
@@ -533,6 +533,10 @@ a:hover { text-decoration: underline }
 .justify-end { justify-content: flex-end }
 .justify-center { justify-content: center }
 
+.inline-flex {
+    display: inline-flex;
+}
+
 /*MARK:GRID */
 
 .grid { display: grid }
@@ -665,10 +669,11 @@ a:hover { text-decoration: underline }
 }
 
 .content-title { 
-    font-family: var(--ff-special);
+    font-family: var(--ff-mono);
     color: var(--color-secondary-text);
     margin-bottom: var(--space-xl);
     font-size: var(--fs-h3);
+    font-weight: 500;
 }
 
 /* Mousedown */
@@ -763,12 +768,22 @@ a:hover { text-decoration: underline }
 }
 
 footer {
-    min-height: 256px;
+    min-height: 356px;
     aspect-ratio: 5;
     color: var(--color-secondary-text);
-    background-image: url('./assets/cascade-lines.svg');
+    background-image: 
+        url('./assets/cascade-lines.svg'),
+        linear-gradient(
+            to bottom, 
+            oklab(100% 0 -0.00011 / 0) 13%, 
+            oklab(100% 0 -0.00011 / .35) 36%,
+            oklab(17.899% 0.01376 -0.10981 / 0.40) 50%,
+            oklab(24.071% -0.01818 -0.07749 / 0.73) 85%,
+            oklab(28.557% -0.02732 -0.03416 / 0.95) 100%
+        );
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: soft-light;
     
 }
 

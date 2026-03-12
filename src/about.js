@@ -49,7 +49,7 @@ export function displayAboutContent() {
         <section class="full-width flex-column flex-align-center gap-md padding-vert-2xl" id="values-section">
             <div class="flex-column flex-align-center gap-lg width-80">
                 <h1 class="text-h1 full-width centered font-mono">My values</h1>
-                <p class="text-h4 centered font-mono muted">These are the principles that shape how I think and work.</p>
+                <p class="text-h4 centered font-mono muted">These are a few principles that shape how I think and approach my work.</p>
                 <div class="flex-row gap-md flex-align-stretch justify-center flex-wrap" id="values-container">
                     ${displayValuesContent()}
                 </div>

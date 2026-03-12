@@ -47,8 +47,7 @@ export function displayContactContent() {
                     <span class="tag tag--technical tag--outlined">Node.js</span> 
                     <span class="tag tag--product tag--outlined">Roadmap planning</span>
                     <span class="tag tag--product tag--outlined">Enterprise software</span>
-                    <span class="tag tag--design tag--outlined">Figma</span> 
-                    <span class="tag tag--design tag--outlined">Sketch</span> 
+                    <span class="tag tag--design tag--outlined">Figma</span>  
                     <span class="tag tag--technical tag--outlined">APIs</span> 
                     <span class="tag tag--design tag--outlined">User research</span> 
                     <span class="tag tag--product tag--outlined">OKRs</span> 

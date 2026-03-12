@@ -2,8 +2,8 @@
     "values": [
         {
             "index": 0,
-            "title": "Radical curiosity",
-            "icon": "local_library",
+            "title": "Be curious",
+            "icon": "psychology_alt",
             "color": "blue",
             "description": "I ask questions to get to the 'why'. I aim to understand the root of a problem before trying to design a solution."
         },
