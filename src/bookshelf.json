@@ -1,7 +1,15 @@
 {
     "books": [
         {
-        "index": 0,
+        "index": 15,
+        "title": "Visual Thinking",
+        "author": "Temple Grandin",
+        "image": "https://covers.openlibrary.org/b/id/12986609-L.jpg",
+        "url": "https://openlibrary.org/works/OL27529154W/Visual_Thinking?edition=key%3A/books/OL37541899M",
+        "readStatus": "read"
+        },
+        {
+        "index": 14,
         "title": "The Electricity of Every Living Thing",
         "author": "Katherine May",
         "image": "https://covers.openlibrary.org/b/id/15152980-L.jpg",
@@ -9,14 +17,14 @@
         "readStatus": "read"
         },
         {
-        "index": 1,
+        "index": 13,
         "title": "Building Your Permaculture Property",
         "author": "Rob Avis, Takota Coen & Michelle Avis",
         "image": "https://bookstore.acresusa.com/cdn/shop/files/Building-Your-Permaculture-Property_cover_480x480.jpg?v=1738330784",
         "readStatus": "read"
         },
         {
-        "index": 2,
+        "index": 12,
         "title": "Finding the Mother Tree",
         "author": "Suzanne Simard",
         "image": "https://covers.openlibrary.org/b/id/12389240-L.jpg",
@@ -24,7 +32,7 @@
         "readStatus": "read"
         },
         {
-        "index": 3,
+        "index": 11,
         "title": "Neurotribes",
         "author": "Steve Silberman",
         "image": "https://covers.openlibrary.org/b/id/9423493-L.jpg",
@@ -32,7 +40,7 @@
         "readStatus": "read"
         },
         {
-        "index": 4,
+        "index": 10,
         "title": "The Overstory",
         "author": "Richard Powers",
         "image": "https://covers.openlibrary.org/b/id/15122019-L.jpg",
@@ -40,7 +48,7 @@
         "readStatus": "read"
         },
         {
-        "index": 5,
+        "index": 9,
         "title": "How to Build a Shed",
         "author": "Sally Coulthard",
         "image": "https://covers.openlibrary.org/b/id/11299525-L.jpg",
@@ -48,7 +56,7 @@
         "readStatus": "read"
         },
         {
-        "index": 6,
+        "index": 8,
         "title": "Four Season Harvest",
         "author": "Eliot Coleman",
         "image": "https://covers.openlibrary.org/b/id/2093050-L.jpg",
@@ -64,7 +72,7 @@
         "readStatus": "read"
         },
         {
-        "index": 8,
+        "index": 6,
         "title": "Where the Deer and Antelope Play",
         "author": "Nick Offerman",
         "image": "https://covers.openlibrary.org/b/id/12198645-L.jpg",
@@ -72,14 +80,14 @@
         "readStatus": "read"
         },
         {
-        "index": 9,
+        "index": 5,
         "title": "The Art of Living",
         "author": "Grant Snider",
         "image": "./assets/book-images/theartofliving-grant-snider.jpg",
         "readStatus": "read"
         },
         {
-        "index": 10,
+        "index": 4,
         "title": "Leonardo da Vinci",
         "author": "Walter Isaacson",
         "image": "https://covers.openlibrary.org/b/id/14719954-L.jpg",
@@ -87,7 +95,7 @@
         "readStatus": "read"
         },
         {
-        "index": 11,
+        "index": 3,
         "title": "The Wise Man's Fear",
         "author": "Patrick Rothfuss",
         "image": "https://covers.openlibrary.org/b/id/12518396-L.jpg",
@@ -95,7 +103,7 @@
         "readStatus": "read"
         },
         {
-        "index": 12,
+        "index": 2,
         "title": "The Name of the Wind",
         "author": "Patrick Rothfuss",
         "image": "https://covers.openlibrary.org/b/id/12065980-L.jpg",
@@ -103,7 +111,7 @@
         "readStatus": "read"
         },
         {
-        "index": 13,
+        "index": 1,
         "title": "Cooked: A Natural History of Transformation",
         "author": "Michael Pollan",
         "image": "https://covers.openlibrary.org/b/id/12624882-L.jpg",
@@ -111,7 +119,7 @@
         "readStatus": "read"
         },
         {
-        "index": 14,
+        "index": 0,
         "title": "Ishmael",
         "author": "Daniel Quinn",
         "image": "https://covers.openlibrary.org/b/id/367924-L.jpg",

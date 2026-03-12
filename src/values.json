@@ -1,0 +1,39 @@
+{
+    "values": [
+        {
+            "index": 0,
+            "title": "Radical curiosity",
+            "icon": "local_library",
+            "color": "blue",
+            "description": "I ask questions to get to the 'why'. I aim to understand the root of a problem before trying to design a solution."
+        },
+        {
+            "index": 1,
+            "title": "Practice empathy",
+            "icon": "diversity_4",
+            "color": "purple",
+            "description": "I seek to deeply understand and internalize the emotions, motivations, and challenges of users as if they were my own."
+        },
+        {
+            "index": 2,
+            "title": "Just be frank",
+            "icon": "conversation",
+            "color": "green",
+            "description": "I aim for transparency. I prefer clear, direct and respectful communication. I admit and own my mistakes."
+        },
+        {
+            "index": 3,
+            "title": "Own it!",
+            "icon": "award_star",
+            "color": "pink",
+            "description": "I move things forward any way that I can. No task is too small or too large."
+        },
+        {
+            "index": 4,
+            "title": "Keep it simple",
+            "icon": "chess_pawn",
+            "color": "gray",
+            "description": "I seek to reduce complexity wherever possible. Sometimes the most elegant solutions are often the most simple."
+        }
+    ]
+}    
