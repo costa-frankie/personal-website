@@ -764,6 +764,7 @@ a:hover { text-decoration: underline }
 
 footer {
     min-height: 256px;
+    aspect-ratio: 5;
     color: var(--color-secondary-text);
     background-image: url('./assets/cascade-lines.svg');
     background-repeat: no-repeat;
