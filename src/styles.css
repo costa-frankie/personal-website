@@ -439,6 +439,8 @@ a:hover { text-decoration: underline }
 .text-h4 { font-size: var(--fs-h4); line-height: var(--line-height-base); } /* 1.25rem */
 .text-h5 { font-size: var(--fs-h5); line-height: var(--line-height-base); } /* 1.125rem */
 
+.color-on-brand { color: var(--pr-white)}
+
 .icon-lg {
     font-size: 4rem;
 }
@@ -546,6 +548,7 @@ a:hover { text-decoration: underline }
 /* MARK: SPACING / POSITIONING */
 
 .full-width { width: 100% }
+.full-height { height: 100% }
 .width-80 { width: 80% }
 .centered { align-items: center; text-align: center }
 .relative { position: relative }
@@ -603,6 +606,8 @@ a:hover { text-decoration: underline }
 .padding-top-lg { padding-top: var(--space-lg) }
 .padding-top-xl { padding-top: var(--space-xl) }
 .padding-bottom-2xl { padding-bottom:var(--space-2xl) }
+.padding-bottom-lg { padding-bottom:var(--space-lg) }
+.padding-bottom-md { padding-bottom:var(--space-md) }
 
 .padding-left-md { padding-left: var(--space-md) }
 .padding-left-lg { padding-left: var(--space-lg) }
@@ -652,6 +657,7 @@ a:hover { text-decoration: underline }
 }
 
 .nav-button-container .btn:hover {
+    
     background-color: var(--action-hover);
     box-shadow: 0px 4px var(--action-brand);
     transform: translateY(-2px);
@@ -675,12 +681,17 @@ a:hover { text-decoration: underline }
     background-color: var(--action-active);
     filter: brightness(.95);
 }
-
 .nav-button-container button.selected {
     color: var(--action-brand);
     border-width: var(--border-w-1); 
     border-color: var(--action-brand);
     border-bottom-width: var(--border-w-4); 
+}
+
+.nav-external-button.btn:hover {
+    --action-hover: var(--color-blue-200);
+    --action-brand: var(--text-link);
+
 }
 
 /* Prevents unwanted shift when hovering on current tab  */
@@ -752,7 +763,7 @@ a:hover { text-decoration: underline }
 }
 
 footer {
-    min-height: 20vh;
+    min-height: 256px;
     color: var(--color-secondary-text);
     background-image: url('./assets/cascade-lines.svg');
     background-repeat: no-repeat;

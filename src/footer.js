@@ -4,6 +4,6 @@ export function displayFooterContent() {
     
     footerContainer.innerHTML = `
         <div class="footer-copyright">
-            <p class="balance-wrap">Created in 2026 by Frankie Costa in the Pacific Northwest 🌲</p>
+            <p class="balance-wrap color-on-brand pin-bottom">Created in 2026 by Frankie Costa in the Pacific Northwest 🌲</p>
         </div>`
 }
