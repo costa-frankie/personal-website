@@ -31,10 +31,10 @@ export function displayBookshelfContent() {
         `).join('');
 
     container.innerHTML = `
-        <section class="flex-column width-80">
+        <section class="flex-column page-max-width">
             <h1 class="content-title full-width">My Bookshelf</h1>
             <div class="banner banner--info padding-md full-width margin-bottom-xl border-2">
-                <p>Reading helps me understand the world and its complex systems. Below are some books I've read. They range from permaculture to neuroscience to fantasy and beyond. They all taught me how to think differently and view things from a different perspective.</p>
+                <p class="text-p">Reading helps me understand the world and its complex systems. Below are some books I've read. They range from permaculture to neuroscience to fantasy and beyond. They all taught me how to think differently and view things from a different perspective.</p>
             </div>
             <div class="grid gap-md" id="bookshelf-container">
                 ${bookshelfHTML}

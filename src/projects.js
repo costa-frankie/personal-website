@@ -45,7 +45,7 @@ export function displayProjectsContent() {
     }).join('');
 
     container.innerHTML = `
-        <section class="projects-container width-80">
+        <section class="projects-container page-max-width">
             <h1 class="content-title pin-left">Projects</h1>
             <div class="banner banner--warning flex-column gap-md full-width padding-md margin-bottom-xl" id="projects-banner">
                 <h3>Featured Projects <span class="weight-normal muted">🚧 <i>Under Construction</i> 🚧</span></h3>

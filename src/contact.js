@@ -5,7 +5,7 @@ export function displayContactContent() {
     const contentContainer = document.querySelector('#content');
     
     const content = `
-    <section class="flex-column gap-md flex-align-center width-80">
+    <section class="flex-column gap-md flex-align-center page-max-width">
         <h1 class="content-title pin-left">Contact</h1>
         <div class="contact-card-stack relative">
             <article class="contact-card card card--surface flex-column flex-align-center gap-lg padding-xl ">

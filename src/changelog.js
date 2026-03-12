@@ -41,7 +41,7 @@ export function displayChangelogContent() {
     }).join('');
 
     container.innerHTML = `
-        <section class="flex-column flex-align-center width-80 flex-align-self-center" id="changelog-container">
+        <section class="flex-column flex-align-center page-max-width flex-align-self-center" id="changelog-container">
             <h1 class="content-title pin-left">Changelog</h1>
             <div class="banner banner--info padding-md full-width margin-bottom-xl" id="changelog-banner">
                 <p class="text-p">This changelog frames my career journey as software releases: what I've achieved, improvements I've made, bugs I've squashed, and known issues I'm still working on.</p>
