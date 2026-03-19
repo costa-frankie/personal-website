@@ -8,7 +8,7 @@ export function displayChangelogContent() {
 
         const detailsHtml = release.details.map(section => `
             <div class="flex-column flex-align-start gap-sm">
-                <h5 class="upper bold">${section.heading}</h5>
+                <h5 class="upper font-sans muted">${section.heading}</h5>
                 <ul class="changelog-items readable">
                     ${section.items.map(item => `<li class="padding-left-xl relative">${item}</li>`).join('')}
                 </ul>
@@ -29,7 +29,7 @@ export function displayChangelogContent() {
                 <div class="changelog-header flex-column gap-md">
                     <div>
                         <span class="text-h1 text-accent font-mono bold">v${release.version}</span>
-                        <h3 class="text-h4">${release.title}${companyText}</h3>
+                        <h3 class="text-h4 font-sans">${release.title}${companyText}</h3>
                     </div>
                     <div class="flex-row gap-md flex-align-center">
                         <span class="released">${release.released}</span>${status}

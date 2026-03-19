@@ -673,11 +673,12 @@ a:hover { text-decoration: underline }
 }
 
 .content-title { 
-    font-family: var(--ff-mono);
-    color: var(--color-secondary-text);
+    font-family: var(--ff-sans);
+    color: var(--color-slate-400);
     margin-bottom: var(--space-xl);
-    font-size: var(--fs-h3);
-    font-weight: 500;
+    font-size: var(--fs-h4);
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* Mousedown */
@@ -781,9 +782,9 @@ footer {
             to bottom, 
             oklab(100% 0 -0.00011 / 0) 13%, 
             oklab(100% 0 -0.00011 / .35) 36%,
-            oklab(17.899% 0.01376 -0.10981 / 0.40) 50%,
-            oklab(24.071% -0.01818 -0.07749 / 0.73) 85%,
-            oklab(28.557% -0.02732 -0.03416 / 0.95) 100%
+            oklab(72% -0.03 -0.06 / 0.40) 50%,
+            oklab(44% -0.03 -0.07 / 0.75) 75%,
+            oklab(32% -0.02 -0.05 / 0.95) 100%
         );
     background-repeat: no-repeat;
     background-size: cover;
@@ -916,7 +917,7 @@ footer {
 .project-icon {
     font-size: 2rem;
     color: var(--color-primary-text);
-    font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 48;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
     border: 2px solid var(--color-primary-text);
     background-color: var(--border-subtle);
     line-height: normal;
@@ -1198,12 +1199,6 @@ footer {
     background-color: var(--color-mist-900);
     outline: 10px dashed var(--color-hero-text-accent);
 }
-
-#my-story-content > p {
-    text-indent: var(--space-lg);
-}
-
-
 @media (max-width: 1024px) { /* ~64rem */
     :root {
         font-size: 93.75%;

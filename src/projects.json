@@ -1,6 +1,19 @@
 {
   "projects": [
     {
+        "icon": "check_box",
+        "title": "Todos los todos",
+        "description": "An app for managing and organizing todos",
+        "tags": ["Javascript", "HTML", "CSS", "Tailwind CSS 4", "Webpack" ],
+        "summary": [
+            { "heading": "Context:",    "content": "Sticky notes. Google calendar events and reminders. Whiteboards with color-coded magnets. I've tried various systems for managing my todo list, but no one solution has stood out and stuck with me. I wanted a custom system that would help me keep track of things and reflects how I work and think." },
+            { "heading": "Process:",    "content": "I researched existing todo list apps to get inspired and created a project specification with my requirements, UI inspiration and notes on the object model to be used. I created wireframes in Figjam to visualize different views and components. From there, I simultaneously planned out the technical implementation while I designed the UI and layout." },
+            { "heading": "Outcome",     "content": "I published Phase I of my app to GitHub! It leverages local storage in order to persist data." },
+            { "heading": "Learnings",   "content": "I applied what I've learned so far in my Full-Stack Javascript learning journey with The Odin Project. I made use of the module pattern and factory functions to construct the objects to be used in the app. I also learned how to load and save data to localStorage. I also incorporated Tailwind CSS into this project and learned how to leverage utility classes for consistent, responsive design." },
+            { "heading": "Next steps",  "content": "I plan to add a back-end database, authentication and other task management features before this can replace my current todo tracking system." }
+        ]
+    },
+    {
         "icon": "music_cast",
         "title": "Frankquency 1.0",
         "description": "A personally curated radio & podcast streaming app",
