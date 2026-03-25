@@ -2,7 +2,7 @@ import './styles.css';
 import { loadInterfaceElements } from './initialize.js';
 import { displayContactContent } from './contact.js';
 import { displayAboutContent } from './about.js';
-import { displayChangelogContent } from './changelog.js';
+import { displayResumeContent } from './resume.js';
 import { displayBookshelfContent } from './bookshelf.js';
 import { displayProjectsContent } from './projects.js';
 
@@ -20,7 +20,7 @@ function setActiveButton(clickedBtn) {
 
 [
     { selector: '#about-btn', handler: displayAboutContent },
-    { selector: '#changelog-btn', handler: displayChangelogContent },
+    { selector: '#resume-btn', handler: displayResumeContent },
     { selector: '#projects-btn', handler: displayProjectsContent },
     { selector: '#bookshelf-btn', handler: displayBookshelfContent },
     { selector: '#contact-btn', handler: displayContactContent },

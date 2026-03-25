@@ -1,0 +1,81 @@
+{
+    "jobs": [
+        {
+            "title": "Portfolio builder • Independent learner",
+            "company": null,
+            "location": "Vancouver, WA",
+            "started": "July 2025",
+            "ended": null,
+            "details": [
+                "Completed <a href=\"https://www.udemy.com/course/javascript-beginners-complete-tutorial/\" target=\"_blank\">The Modern Javascript Bootcamp</a>, covering fundamentals, async programming, API integration, Node.js.",
+                "Built v1 of personal website from scratch using HTML/CSS/JS.",
+                "Created a personal Node.js weather app using weather.gov and publically available web APIs.",
+                "Built various browser-based applications and games to demonstrate knowledge of Javascript & full stack web development while completing <a href=\"https://www.theodinproject.com/about\" target=\"_blank\">The Odin Project</a>."               
+            ]
+        },
+        {
+            "title": "Product Manager",
+            "company": "<a href=\"https://www.axure.com/\" target=\"_blank\">Axure Software Solutions <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
+            "location": "San Diego, CA / Remote",
+            "started": "September 2019",
+            "ended": "July 2025",
+            "details": [
+                "<em>Led new collaborative products, Axure Cloud Documents & Whiteboards, from concept to public beta.</em> Defined product strategy, ran user interviews, designed core UI components, managed product backlog and led weekly standup meetings. As a result, we launched a collaborative workspace that users cited as a viable replacement for their existing tools.",
+                "Overhauled internal tools and customer licensing portal to enable self-serve subscription management, laying the infrastructure foundation for Axure's full SaaS transition.",
+                "Redesigned the first-time experience for Axure RP, anchoring onboarding around the core 'aha' moment of publishing and sharing a first prototype. Then, partnered with Customer Success to automate trial outreach to users who had not hit key milestones, surfacing a new channel for direct customer insights.",
+                "Added key integrations with <a href=\"https://www.figma.com/community/plugin/837098402230990991/axure\" target=\"_blank\">Figma</a>, <a href=\"https://marketplace.atlassian.com/apps/1221645/axure-for-jira\" target=\"_blank\">Jira</a>, and <a href=\"https://marketplace.atlassian.com/apps/1223048/axure-for-confluence\" target=\"_blank\">Confluence</a> to the organization's product suite. Authored project specifications, coordinated with delivery, wrote GTM content including blog posts and community articles, and monitored post-launch feedback to ensure integrations worked the way users actually worked.",
+                "Conducted user interviews and established user feedback loops that reduced new user time-to-value and resulted in faster feature response times and tighter alignment between product and support teams.",
+                "Shipped dozens of improvements for the organization's desktop (Axure RP) and web (Axure Cloud) apps supporting global product and UX design teams."
+            ]
+        },
+        {
+            "title": "Product Manager III",
+            "company": "<a href=\"https://www.mitchell.com/\" target=\"_blank\">Mitchell International <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
+            "location": "San Diego, CA",
+            "started": "March 2019",
+            "ended": "September 2019", 
+            "details": [
+                "<em>Led 3 Agile teams delivering web-based estimating and claims solutions.</em> Collaborated with design, engineering and business stakeholders to validate requirements, resolve workflow gaps and ship improvements that increased user satisfaction across the insurance and collision repair industry.",
+                "Partnered with a major insurance carrier to scope and launch an <a href=\"https://www.mitchell.com/insights/news-release/auto-physical-damage/mitchell-announces-launch-intelligent-estimating\" target=\"_blank\">AI-powered automated estimating tool</a> using machine learning image recognition to detect vehicle damage and auto-generate a preliminary estimate, reducing claims cycle time.",
+                "Received the 2018 Annual MVP Award for impactful contributions to Auto Physical Damage Solutions division.",
+                "Achieved subject matter expert status and became go-to resource for estimating knowledge across the organization."
+            ]
+        },
+        {
+            "title": "Product Manager II",
+            "company": "<a href=\"https://www.mitchell.com/\" target=\"_blank\">Mitchell International <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
+            "location": "San Diego, CA",
+            "started": "September 2017",
+            "ended": "March 2019",
+            "details": [
+                "Managed product backlogs for 3 Agile teams responsible for the successful launch of Mitchell Cloud Estimating, a SaaS Auto Damage Appraisal solution. Achieved 3x YoY growth in adoption.",
+                "Launched the company's first Voice-of-the-Customer(VoC) program, enabling key product analytics and vital user data insight sharing.",
+                "Led internal alpha testing programs and partnered directly with insurance partners participating in User Acceptance Testing (UAT) to ensure smooth product rollouts and prevent post-launch issues."
+            ]
+        },
+        {
+            "title": "Product Manager I",
+            "company": "<a href=\"https://www.mitchell.com/\" target=\"_blank\">Mitchell International <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
+            "location": "San Diego, CA",
+            "started": "August 2015",
+            "ended": "September 2017",
+            "details": [
+                "Led 1 agile development team delivering Mitchell Cloud Estimating.",
+                "Ran sprint planning, retrospectives, daily standups and backlog grooming meetings, adhering to the SAFe Agile Framework.",                 
+                "Authored quality usery stories using the INVEST principle.",
+                "Collaborated with UX designers to conduct user discovery, ideation and iterate on interactive prototypes for feature enhancements."                
+            ]
+        },
+        {
+            "title": "Client Program Specialist",
+            "company": "<a href=\"https://www.mitchell.com/\" target=\"_blank\">Mitchell International <span class=\"material-symbols-outlined material-symbols-heading\">open_in_new</span></a>",
+            "location": "San Diego, CA",
+            "started": "November 2012",
+            "ended": "August 2015",
+            "details": [
+                "Managed customer satisfaction programs for auto repair networks across North America. Improved product adoption and engagement, resolved data and reporting issues.",
+                "Provided consultative support to collision repair centers and insurance carriers. Built relationships that deepened customer retention."
+            ]
+        }
+    ]
+}
