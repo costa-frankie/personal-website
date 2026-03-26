@@ -1,4 +1,5 @@
 import data from './resume.json';
+import linkedIn from './assets/In-White.png';
 
 export function displayResumeContent() {
     const container = document.querySelector('#content');
@@ -42,5 +43,9 @@ export function displayResumeContent() {
                 ${jobsHtml}
             </div>
         </section>
+        <div class="flex-column flex-align-center gap-md flex-align-self-center">
+            <p class="font-body muted">Interested in getting in touch?</p>
+            <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn flex-row flex-align-center gap-sm padding-horizon-md padding-vert-sm"><img src="${linkedIn}" width="20px" height="20px"><p>Connect on LinkedIn</p></a>
+        </div>
     `;
 }

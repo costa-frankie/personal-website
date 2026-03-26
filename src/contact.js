@@ -1,4 +1,4 @@
-import inImage from './assets/In-White.png';
+import linkedIn from './assets/In-White.png';
 import avatar from './assets/avatar-fc.png';
 
 export function displayContactContent() {
@@ -16,9 +16,7 @@ export function displayContactContent() {
                             <h4 class="text-h4">Frankie Costa</h4>
                             <span class="text-p muted">Product Manager</span>
                         </div>
-                        <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn gap-sm">
-                            <p>Connect on LinkedIn</p>
-                        </a>
+                        <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank" class="connect-btn flex-row flex-align-center gap-sm padding-horizon-md padding-vert-sm"><img src="${linkedIn}" width="20px" height="20px"><p>Connect on LinkedIn</p></a>
                     </div>                    
 
                 </div>
