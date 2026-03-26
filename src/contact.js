@@ -32,24 +32,24 @@ export function displayContactContent() {
                     </div>
                 </div>
                 <div class="cluster justify-center max-w-40-ch border-top-subtle padding-top-lg">
-                    <span class="tag tag--product tag--outlined">Product strategy</span> 
-                    <span class="tag tag--design tag--outlined">UX prototyping</span> 
-                    <span class="tag tag--product tag--outlined">Agile</span>  
-                    <span class="tag tag--product tag--outlined">Scrum</span> 
-                    <span class="tag tag--product tag--outlined">B2B SaaS</span>  
-                    <span class="tag tag--design tag--outlined">Interaction design</span> 
-                    <span class="tag tag--design tag--outlined">Wireframing</span> 
-                    <span class="tag tag--technical tag--outlined">HTML</span> 
-                    <span class="tag tag--technical tag--outlined">CSS</span> 
-                    <span class="tag tag--technical tag--outlined">Javascript</span> 
-                    <span class="tag tag--technical tag--outlined">Node.js</span> 
-                    <span class="tag tag--product tag--outlined">Roadmap planning</span>
-                    <span class="tag tag--product tag--outlined">Enterprise software</span>
-                    <span class="tag tag--design tag--outlined">Figma</span>  
-                    <span class="tag tag--technical tag--outlined">APIs</span> 
-                    <span class="tag tag--design tag--outlined">User research</span> 
-                    <span class="tag tag--product tag--outlined">OKRs</span> 
-                    <span class="tag tag--product tag--outlined">Data visualization</span> 
+                    <span class="tag tag--product ">Product strategy</span> 
+                    <span class="tag tag--design ">UX prototyping</span> 
+                    <span class="tag tag--product ">Agile</span>  
+                    <span class="tag tag--product ">Scrum</span> 
+                    <span class="tag tag--product ">B2B SaaS</span>  
+                    <span class="tag tag--design ">Interaction design</span> 
+                    <span class="tag tag--design ">Wireframing</span> 
+                    <span class="tag tag--technical ">HTML</span> 
+                    <span class="tag tag--technical ">CSS</span> 
+                    <span class="tag tag--technical ">Javascript</span> 
+                    <span class="tag tag--technical ">Node.js</span> 
+                    <span class="tag tag--product ">Roadmap planning</span>
+                    <span class="tag tag--product ">Enterprise software</span>
+                    <span class="tag tag--design ">Figma</span>  
+                    <span class="tag tag--technical ">APIs</span> 
+                    <span class="tag tag--design ">User research</span> 
+                    <span class="tag tag--product ">OKRs</span> 
+                    <span class="tag tag--product ">Data visualization</span> 
                 </div>
             </article>
             <div class="paper absolute" data-paper="1"></div>

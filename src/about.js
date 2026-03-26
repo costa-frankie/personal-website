@@ -19,30 +19,31 @@ export function displayAboutContent() {
         <div class="flex-column page-max-width gap-xl">
             <h1 class="content-title">About</h1>
             <section class="flex-row justify-center flex-align-center gap-md flex-wrap" id="hero-container">
+                <div class="flex-column gap-md flex-align-start">
+                    <p class="text-h4 muted">Hello, my name is</p>
+                    <h1 class="text-hero upper font-mono">Frankie Costa</h1>
+                    <div class="flex-column gap-md text-hero-body">
+                        <div class="flex-column gap-xs">
+                            <div class="flex-row gap-sm flex-align-center">
+                                <p class="text-h3 text-right muted">Experienced</p>
+                                <span class="text-h2 written" id="what-am-i"></span>
+                            </div>
+                            <div class="flex-row gap-sm flex-align-center">
+                                <p class="text-h3 text-right muted">who</p>
+                                <div class="flex-row gap-xs flex-align-end">
+                                    <p class="padding-horizon-sm tag--default rounded-sm text-h2 written" id="typed-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-h3 muted">I help teams solve the right problems and build user-focused solutions.</p>
+                    </div>
+                </div>
                 <div class="flex-column gap-sm centered">
                     <div class="img-container open-border border-4 circular flex-column flex-align-center justify-center">
                         <img src="${foto}" class="hero-photo circular shadow-md trans-all-200 margin-md" width="192px" height="192px" alt="Personal photo" />
                     </div>
                     <div class="open-border border-1 radius-2 open-to-work">
                         <p><span class="bullet">●</span> Open to work</p>
-                    </div>
-                </div>
-                <div class="flex-column gap-md flex-align-center">
-                    <p class="text-h3 muted">Hello, my name is</p>
-                    <h1 class="text-hero upper font-mono centered">Frankie Costa</h1>
-                    <div class="text-hero-body">
-                        <div class="grid grid-cols-hero gap-sm flex-align-center">
-                            <p class="text-h3 text-right muted">Experienced</p>
-                            <span class="text-h2 written" id="what-am-i"></span>
-                        </div>
-                        <div class="grid grid-cols-hero gap-sm  justify-center">
-                            <p class="text-h3 text-right muted">who</p>
-                            <div class="flex-row gap-xs flex-align-end">
-                                <p class="padding-horizon-sm tag--default rounded-sm text-h2 written" id="typed-text"> </p>
-                            </div>
-                        </div>
-                        <br>
-                        <p class="text-h3 centered muted">I help teams solve the right problems and build user-focused solutions.</p>
                     </div>
                 </div>
             </section>

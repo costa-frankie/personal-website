@@ -475,7 +475,7 @@ a:hover { text-decoration: underline }
     -webkit-text-stroke: 2px var(--color-hero-text-accent);
 }
 
-.text-hero-body { max-width: 44ch }
+.text-hero-body { max-width: 40ch }
 
 .text-right { text-align: right }
 
@@ -847,6 +847,8 @@ footer {
 #what-am-i {
     display: inline-block;
     white-space: nowrap;
+    line-height: normal;
+    min-height: 1lh;
 }
 
 .written {
