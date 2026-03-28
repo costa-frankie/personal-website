@@ -780,28 +780,40 @@ a:hover { text-decoration: underline }
 }
 
 footer {
-    min-height: 356px;
-    aspect-ratio: 5;
-    color: var(--color-secondary-text);
-    background-image: 
-        url('./assets/cascade-lines.svg'),
-        linear-gradient(
-            to bottom, 
-            oklab(100% 0 -0.00011 / 0) 13%, 
-            oklab(100% 0 -0.00011 / .35) 36%,
-            oklab(75.765% -0.0188 -0.03844 / 0.4) 50%,
-            oklab(51.658% -0.01814 -0.03656 / 0.75) 75%,
-            oklab(34.623% -0.01041 -0.02669 / 0.95) 100%
-        );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: soft-light;
-    
     /* oklab(100% 0 -0.00011 / 0) 13%, 
     oklab(100% 0 -0.00011 / .35) 36%,
     oklab(72% -0.03 -0.06 / 0.40) 50%,
     oklab(44% -0.03 -0.07 / 0.75) 75%,
     oklab(32% -0.02 -0.05 / 0.95) 100% */
+}
+
+.footer-bg {
+    min-height: 356px;
+    aspect-ratio: 5;
+
+    background-image: 
+    url('./assets/cascade-lines.svg'),
+    linear-gradient(
+        to bottom, 
+        oklab(100% 0 -0.00011 / 0) 13%, 
+        oklab(100% 0 -0.00011 / .35) 36%,
+        oklab(75.765% -0.0188 -0.03844 / 0.4) 50%,
+        oklab(51.658% -0.01814 -0.03656 / 0.75) 75%,
+        oklab(34.623% -0.01041 -0.02669 / 0.95) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.footer-content-bg {
+    background-image: 
+        linear-gradient(
+            to bottom, 
+            oklab(34.623% -0.01041 -0.02669 / 0.95) 0%,
+            oklab(34.623% -0.01041 -0.02669 / 0.95) 49%,
+            oklab(34.623% -0.01041 -0.02669) 100%
+        );
 }
 
 .cluster {
@@ -858,7 +870,7 @@ footer {
 }
 
 #bookshelf-container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
 }
 
 /* MARK: Skins */

@@ -19,7 +19,7 @@
             "title": "Just be frank",
             "icon": "conversation",
             "color": "green",
-            "description": "I aim for transparency. I prefer clear, direct and respectful communication. I admit and own my mistakes."
+            "description": "I aim for transparency. I prefer clear, direct and respectful communication."
         },
         {
             "index": 3,
@@ -33,7 +33,7 @@
             "title": "Keep it simple",
             "icon": "chess_pawn",
             "color": "gray",
-            "description": "I seek to reduce complexity wherever possible. Sometimes the most elegant solutions are often the most simple."
+            "description": "I seek to reduce complexity wherever possible."
         }
     ]
 }    
