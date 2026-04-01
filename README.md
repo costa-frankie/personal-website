@@ -1,7 +1,7 @@
 # About this site
 A website I built to share my professional experience, projects and writing. 
 
-**Live site:** [costa-frankie.github.io/personal-website](https://costa-frankie.github.io/personal-website/)
+**Live site:** [frankie-costa.com](https://frankie-costa.com)
 
 ## Tech stack
 - Vanilla Javascript + CSS + HTML
