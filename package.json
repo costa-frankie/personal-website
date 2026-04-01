@@ -1,5 +1,5 @@
 {
-  "name": "my-personal-website",
+  "name": "frankie-costa.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "webpack serve",
     "build": "webpack --mode production --no-devtool",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --cname frankie-costa.com"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,6 @@
   "dependencies": {
     "typed.js": "^3.0.0"
   },
-  "homepage": "https://costa-frankie.github.io/personal-website/"
+  "homepage": "https://frankie-costa.com/"
 }
 
