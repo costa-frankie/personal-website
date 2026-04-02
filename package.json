@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d dist --cname frankie-costa.com"
   },
   "keywords": [],
-  "author": "",
+  "author": "Frankie Costa",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
