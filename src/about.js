@@ -12,6 +12,7 @@ function calculateExperienceMonths() {
     return months;
 }
 
+let typedInstances = [];
 
 export function displayAboutContent() {
     const contentContainer = document.querySelector('#content');
@@ -81,16 +82,18 @@ export function displayAboutContent() {
             </div>
         </section>
                     `;
+    typedInstances.forEach(t => t.destroy());
+    typedInstances = [];
     contentContainer.innerHTML = content;
 
-    new Typed('#what-am-i', {
+    typedInstances.push(new Typed('#what-am-i', {
         strings: ['product manager','product owner', 'product leader', 'product builder'],
         typeSpeed: 100,
         backSpeed: 30,
         backDelay: 3000,
         loop: true,
         showCursor: false
-    });
+    }));
 
     const typedStrings = [
         { text: 'codes',      cls: 'tag--technical' },
@@ -106,7 +109,7 @@ export function displayAboutContent() {
     ];
     const tagClasses = ['tag--default', 'tag--design', 'tag--technical', 'tag--product'];
 
-    new Typed('#typed-text', {
+    typedInstances.push(new Typed('#typed-text', {
         strings: typedStrings.map(s => s.text),
         typeSpeed: 100,
         backSpeed: 30,
@@ -117,7 +120,7 @@ export function displayAboutContent() {
             self.el.classList.remove(...tagClasses);
             self.el.classList.add(typedStrings[arrayPos].cls);
         }
-    });
+    }));
 
     const projectsLink = document.querySelector('#open-projects-view');
     projectsLink.addEventListener('click', (e) => {

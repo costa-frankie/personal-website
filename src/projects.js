@@ -57,43 +57,30 @@ export function displayProjectsContent() {
         </section>
     `;
 
-    // Expand project card on click, collapse all others, scroll to top of view
-    container.querySelectorAll('.project-card').forEach(card => {
-        card.addEventListener('click', (event) => {
-            event.stopPropagation();
-            if (card.classList.contains('collapsed')) {
-                container.querySelectorAll('.project-card.expanded').forEach(expandedCard => {
-                    expandedCard.classList.remove('expanded');
-                    expandedCard.classList.add('collapsed');
-                });
-                card.classList.add('expanded');
-                card.classList.remove('collapsed');
-                
-                const projectsListContainer = document.querySelector('#projects-list'); 
-                projectsListContainer.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                })
-            }
-        });
-    });
+    container.addEventListener('click', (e) => {
+        const card = e.target.closest('.project-card');
+        const closeBtn = e.target.closest('.project-expand-icon--less');
+        
+        if (closeBtn) {
+            e.stopPropagation();
+            closeBtn.closest('.project-card').classList.replace('expanded', 'collapsed');
+            return;
+        }
 
-    container.querySelectorAll('.project-expand-icon--less').forEach(closeBtn => {
-        closeBtn.addEventListener('click', (event) => {
-            event.stopPropagation();
+        if (card?.classList.contains('collapsed')) {
+            container.querySelectorAll('.project-card.expanded')
+                .forEach(c => c.classList.replace('expanded', 'collapsed'));
+            card.classList.replace('collapsed', 'expanded');
+            document.querySelector('#projects-list').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+            return;
+        }
 
-            const card = closeBtn.closest('.project-card');
-            card.classList.remove('expanded');
-            card.classList.add('collapsed');
-
-
-        });
-    });
-
-    document.addEventListener('click',() => {
-        container.querySelectorAll('.project-card.expanded').forEach(expandedCard => {
-            expandedCard.classList.remove('expanded');
-            expandedCard.classList.add('collapsed');
-        });
+        if (!card) {
+            container.querySelectorAll('.project-card.expanded')
+                .forEach(c => c.classList.replace('expanded', 'collapsed'));
+        }
     });
 }

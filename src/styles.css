@@ -551,7 +551,7 @@ a:hover { text-decoration: underline }
 /*MARK:GRID */
 
 .grid { display: grid }
-.grid-cols-2 { grid-template-columns: repeat (2, minmax(1fr)) }
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(1fr)) }
 .grid-cols-hero { grid-template-columns: max-content auto }
 
 .col-span-1 {  grid-column: 1 }
