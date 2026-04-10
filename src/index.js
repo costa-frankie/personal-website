@@ -12,10 +12,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     loadInterfaceElements();
 
     const navButtons = document.querySelectorAll('.nav-button-container button');
+    let cleanupCurrentView = () => {};
 
     function setActiveButton(clickedBtn) {
         navButtons.forEach(btn => btn.classList.remove('selected'));
         clickedBtn.classList.add('selected');
+    }
+
+    function navigateTo(handler, btn) {
+        window.scrollTo(0,0);
+        cleanupCurrentView();
+        cleanupCurrentView = handler() ?? (() => {});
+        setActiveButton(btn);
     }
 
     [
@@ -28,17 +36,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     ].forEach(({ selector, handler }) => {
         const el = document.querySelector(selector);
         if (!el) return;
-        el.addEventListener('click', () => {
-            window.scrollTo(0,0);
-            handler();
-            setActiveButton(el);
-        });
+        el.addEventListener('click', () => navigateTo(handler, el));
     });
 
     document.querySelector('#nav-logo-container').addEventListener('click', () => {
-        window.scrollTo(0,0);
-        displayAboutContent();
-        setActiveButton(document.querySelector('#about-btn'));
+        navigateTo(displayAboutContent, document.querySelector('#about-btn'));
     });
 
     const menuBtn = document.querySelector('#nav-menu-btn');
