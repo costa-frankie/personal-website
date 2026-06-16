@@ -286,8 +286,14 @@ a:hover .material-symbols-outlined {
 }
 
 .material-symbols-heading {
-    font-variation-settings: 
+    font-variation-settings:
         'wght' 500;
+}
+
+#resume-container .material-symbols-heading {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .special-elite-regular {
@@ -779,14 +785,6 @@ a:hover { text-decoration: underline }
     }
 }
 
-footer {
-    /* oklab(100% 0 -0.00011 / 0) 13%, 
-    oklab(100% 0 -0.00011 / .35) 36%,
-    oklab(72% -0.03 -0.06 / 0.40) 50%,
-    oklab(44% -0.03 -0.07 / 0.75) 75%,
-    oklab(32% -0.02 -0.05 / 0.95) 100% */
-}
-
 .footer-bg {
     min-height: 356px;
     aspect-ratio: 5;
@@ -1097,11 +1095,17 @@ footer {
 
 .readable * { max-width: 69ch }
 
+.w-2xl { width: 42rem }
+
 .max-w-40-ch { max-width: 40ch }
 .width-32-ch { width: 32ch }
+.max-w-lg { max-width: 32rem }
+.max-w-xl { max-width: 36rem }
+.max-w-2xl { max-width: 42rem }
 
 .pretty-wrap { text-wrap: pretty }
 .balance-wrap { text-wrap: balance }
+.text-wrap { text-wrap: wrap }
 
 .border-1 { border-width: 1px }
 

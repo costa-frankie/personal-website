@@ -10,7 +10,7 @@ export function displayResumeContent() {
             : `${job.started} – Present`;
 
         const companyHtml = job.company
-            ? `<h4 class="text-h4 font-sans muted">${job.company}</h4>`
+            ? `<h5 class="text-h5 font-sans muted">${job.company}</h4>`
             : '';
 
         const detailsHtml = job.details.map(bullet =>
@@ -18,10 +18,10 @@ export function displayResumeContent() {
         ).join('');
 
         return `
-            <div class="flex-column flex-align-start gap-md theme-nav rounded padding-xl">
-                <div class="resume-header flex-column gap-md">
-                    <div>
-                        <h3 class="text-h3 font-sans bold">${job.title}</h3>
+            <div class="flex-column flex-align-start gap-sm theme-nav rounded padding-xl w-2xl basis-full">
+                <div class="resume-header flex-column gap-sm">
+                    <div class="flex-column gap-xs max-w-lg">
+                        <h4 class="text-h4 font-sans bold text-wrap">${job.title}</h3>
                         ${companyHtml}
                     </div>
                     <div class="flex-row gap-md flex-align-center">
@@ -39,7 +39,7 @@ export function displayResumeContent() {
     container.innerHTML = `
         <section class="flex-column flex-align-center page-max-width flex-align-self-center" id="resume-container">
             <h1 class="content-title pin-left">Résumé</h1>
-            <div class="flex-column flex-align-center gap-3xl" id="resume-list">
+            <div class="flex-column flex-align-center gap-3xl items-stretch" id="resume-list">
                 ${jobsHtml}
             </div>
         </section>
