@@ -291,9 +291,16 @@ a:hover .material-symbols-outlined {
 }
 
 #resume-container .material-symbols-heading {
-    font-size: 20px;
-    width: 20px;
-    height: 20px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+a:hover .material-symbols-heading {
+    text-decoration: none;
+    display: inline-block;
 }
 
 .special-elite-regular {
@@ -434,9 +441,14 @@ a {
     text-decoration: none;
     padding: 0px;
     transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
-a:hover { text-decoration: underline }
+a:hover { filter: brightness(1.4) }
+
+
 
 .text-slightly-smaller { font-size: var(--fs-slightly-smaller); line-height: var(--line-height-base) }
 .text-small { font-size: var(--fs-sm); line-height: var(--line-height-base) }
@@ -692,6 +704,7 @@ a:hover { text-decoration: underline }
     font-size: var(--fs-h4);
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /* Mousedown */

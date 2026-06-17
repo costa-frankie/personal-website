@@ -46,7 +46,7 @@ export function displayProjectsContent() {
 
     container.innerHTML = `
         <section class="projects-container page-max-width">
-            <h1 class="content-title pin-left">Projects</h1>
+            <h1 class="content-title">Projects</h1>
             <div class="banner banner--warning flex-column gap-md full-width padding-md margin-bottom-xl" id="projects-banner">
                 <h3>Featured Projects <span class="weight-normal muted">🚧 <i>Under Construction</i> 🚧</span></h3>
                 <p class="text-p">I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>

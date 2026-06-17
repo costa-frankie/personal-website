@@ -18,7 +18,7 @@ export function displayResumeContent() {
         ).join('');
 
         return `
-            <div class="flex-column flex-align-start gap-sm theme-nav rounded padding-xl w-2xl basis-full">
+            <div class="flex-column flex-align-start gap-sm rounded padding-xl w-2xl basis-full">
                 <div class="resume-header flex-column gap-sm">
                     <div class="flex-column gap-xs max-w-lg">
                         <h4 class="text-h4 font-sans bold text-wrap">${job.title}</h3>
@@ -38,8 +38,8 @@ export function displayResumeContent() {
 
     container.innerHTML = `
         <section class="flex-column flex-align-center page-max-width flex-align-self-center" id="resume-container">
-            <h1 class="content-title pin-left">Résumé</h1>
-            <div class="flex-column flex-align-center gap-3xl items-stretch" id="resume-list">
+            <h1 class="content-title">Résumé</h1>
+            <div class="flex-column flex-align-center gap-xl items-stretch" id="resume-list">
                 ${jobsHtml}
             </div>
         </section>

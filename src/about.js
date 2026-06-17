@@ -15,7 +15,6 @@ export function displayAboutContent() {
 
     contentContainer.innerHTML = `
         <div class="flex-column page-max-width gap-xl">
-            <h1 class="content-title">About</h1>
             <section class="flex-row justify-center flex-align-center gap-md flex-wrap" id="hero-container">
                 <div class="flex-column gap-md flex-align-start">
                     <p class="text-h4 muted">Hello, my name is</p>

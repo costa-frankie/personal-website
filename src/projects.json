@@ -2,8 +2,8 @@
   "projects": [
     {
         "icon": "check_box",
-        "title": "Todos los todos",
-        "description": "An app for managing and organizing todos",
+        "title": "Todos los to-dos",
+        "description": "A web app for managing and organizing your todo list",
         "tags": ["Javascript", "HTML", "CSS", "Tailwind CSS 4", "Webpack" ],
         "summary": [
             { "heading": "Context:",    "content": "Sticky notes. Google calendar events and reminders. Whiteboards with color-coded magnets. I've tried various systems for managing my todo list, but no one solution has stood out and stuck with me. I wanted a custom system that would help me keep track of things and reflects how I work and think." },
@@ -15,14 +15,14 @@
     },
     {
         "icon": "music_cast",
-        "title": "Frankquency 1.0",
+        "title": "Music & podcast streaming server",
         "description": "A personally curated radio & podcast streaming app",
         "tags": ["Node.js", "RSS/XML", "Local networking", "Javascript", "HTML", "CSS" ],
         "summary": [
             { "heading": "Context:",    "content": "I wanted an easy way to play my favorite podcasts and radio stations from around the world without having to install an app from an appstore or pay for a subscription." },
             { "heading": "Process:",    "content": "I built a Node.js app and configured it on my home server, allowing any client device on my network to stream my curated list of sound streams." },
             { "heading": "Outcome",     "content": "A lightweight streaming solution that eliminates daily friction and cognitive load by consolidating multiple audio streaming sources into a unified, easy-to-use interface. By hosting the service locally, I can stream global radio and podcast feeds from any device. No more context switching between this podcast app and that music station." },
-            { "heading": "Learnings",   "content": "I learned about the podcast XML format, how RSS feeds work, and local networking configuration. I also experimented with Claude Code for this project to get a better understanding of current AI developer workflows and related UX patterns. I learned to <i>plan</i> up front with plan mode, <i>ask</i> clarifying questions to <i>iterate</i> on that plan and understand the technical approach, before implementing the changes." },
+            { "heading": "Learnings",   "content": "I learned about the podcast XML format, how RSS feeds work, and local networking configuration." },
             { "heading": "Next steps",  "content": "Build an authenticated admin panel front-end to manage the list of saved podcasts / radio stations without having to go into the code. Containerize it with Docker. Add a database for 'Recently Played' or 'Favorites'." }
         ]
     },
@@ -54,8 +54,8 @@
     },
     {
         "icon": "router",
-        "title": "Configured Pi-hole",
-        "description": "I set up a home network-wide ad blocker for (mostly) ad-free browsing on all devices",
+        "title": "Pi-hole network-wide ad blocker",
+        "description": "A home network-wide ad blocker for ad-free browsing on all devices",
         "tags": ["local networking", "DNS", "DHCP" ],
         "summary": [
           { "heading": "Context",     "content": "I love to cook, but I absolutely hate recipe websites with all of the ads. I wanted a way to easily browse recipes and websites without constantly having to dismiss ads." },
@@ -77,19 +77,6 @@
           { "heading": "Learnings",   "content": "I gained a better understanding of how to use query selectors to update DOM elements." },
           { "heading": "Next steps",  "content": "Perhaps I'll rebuild the library as actual stand-alone web components that I can leverage in my future coding projects. Stay tuned for more!" }
         ]
-    },
-    {
-        "icon": "potted_plant",
-        "title": "Plant Something Prototype",
-        "description": "A fully functional UX prototype that helps users grow healthy plants from seed",
-        "tags": ["UX prototyping", "UI design"],
-        "summary": [
-            { "heading": "Context",     "content": "I like to grow plants from seeds and wanted a way to quickly access information such as planting depth, ideal soil temperature, and spacing and nutrient requirements." },
-            { "heading": "Process",     "content": "I created a Google Sheet with data for each seed purchased. I then imported the data into Axure RP, a UX tool for building realistic prototypes. The Repeater widget and Dynamic Panels were used to display the data for each seed. The prototype allows users to browse the seed catalog or search by seed name. I published the <a href=\"https://ystoz7.axshare.com/#id=h9jatm&p=home&c=1\" target=\"_blank\">working prototype</a> to Axure Cloud and added a shortcut on my cell phone to quickly access my prototype whether I was on the go or in the garden."},
-            { "heading": "Outcome",     "content": "As a result, I can now quickly pull up key information about my plants throughout the growing season without having to stop what I'm doing and consult my monstrosity of a spreadsheet." },
-            { "heading": "Learnings",   "content": "One thing I learned is how to structure my projects more cleanly by maintaining clear separation between the data and the presentation layers. This is challenging to do with prototyping software that doesn't connect to a back-end database, but my approach helped me understand and appreciate the concerns that developers can experience when planning an application. I also learned the importance of backing up your work. Since I lost access to the original, locally-stored prototype file, I can no longer go back and make updates to the project. Let this be a reminder to back up your work!" },
-            { "heading": "Next steps",  "content": "With more knowledge of front-end development, I plan to move from a static spreadsheet+prototype to a full-stack Node.js application." }
-      ]
     }
   ]
 }

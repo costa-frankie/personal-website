@@ -6,7 +6,7 @@ export function displayContactContent() {
     
     const content = `
     <section class="flex-column gap-md flex-align-center page-max-width">
-        <h1 class="content-title pin-left">Contact</h1>
+        <h1 class="content-title">Contact</h1>
         <div class="contact-card-stack relative">
             <article class="contact-card card card--surface flex-column flex-align-center gap-lg padding-xl ">
                 <div class="flex-row gap-lg flex-wrap justify-center">

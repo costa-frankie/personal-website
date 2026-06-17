@@ -1,6 +1,13 @@
 {
     "books": [
         {
+        "index": 16,
+        "title": "How to Find a Four-Leaf Clover",
+        "author": "Jodi Rodgers",
+        "image": "https://covers.openlibrary.org/b/id/14587604-L.jpg",
+        "url": "https://openlibrary.org/books/OL50721345M/How_to_Find_a_Four-Leaf_Clover",
+        "readStatus": "read"
+        },{
         "index": 15,
         "title": "Visual Thinking",
         "author": "Temple Grandin",
