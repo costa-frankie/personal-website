@@ -46,12 +46,12 @@ export function displayAboutContent() {
             </section>
         </div>
         <section class="flex-column flex-align-center gap-lg padding-horizon-md padding-vert-4xl full-width section--surface-alt" id="my-story-container">
-            <h1 class="text-h1 full-width centered font-mono color-on-brand">My story</h1>
-            <p class="text-h4 centered font-mono color-on-brand padding-horizon-3xl">A little bit about me and my career</p>
+            <h1 class="text-h1 full-width centered font-mono color-on-brand">About me</h1>
+            <p class="text-h4 centered font-mono color-on-brand padding-horizon-3xl">My journey so far</p>
             <div class="readable flex-column gap-lg padding-horizon-3xl padding-vert-4xl theme-nav" id="my-story-content">
-                <p class="text-h5 full-width font-mono">I started in product management because I had a desire to be part of a team 
-                    building innovative technology. I wanted to understand how people come together to craft intuitive software. 
-                    Over the last 10+ years, I've been doing just that, working on a variety of products from estimating apps for collision repair shops to prototyping apps for UX designers and product teams. 
+                <p class="text-h5 full-width font-mono">I started out in product management because I wanted to join a team 
+                    building exciting products. I wanted to understand how people come together to craft intuitive software. 
+                    Over the last 10+ years, I've been doing just that, working on a variety of products from estimating apps for collision repair shops to prototyping tools for UX designers and product teams. 
                     Along the way, I've developed a love for learning new skills, whether that's
                     <span class="tag--design">designing</span>, 
                     <span class="tag--technical">writing code</span> or 
