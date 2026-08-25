@@ -1,0 +1,77 @@
+/* Theme-agnostic reset + prose rhythm shared by every blog theme.
+   No color or font-family decisions belong here — that's each theme's job. */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    max-width: 68ch;
+    margin-inline: auto;
+    padding: 2rem 1rem 4rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p, ul, ol {
+    line-height: 1.6;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+}
+
+li + li {
+    margin-top: 0.35em;
+}
+
+blockquote {
+    margin: 1.5em 0;
+    padding-left: 1em;
+    border-left: 3px solid currentColor;
+    font-style: italic;
+}
+
+code {
+    font-family: ui-monospace, "Courier New", Courier, monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1em;
+}
+
+pre code {
+    font-size: 0.85em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid currentColor;
+    opacity: 0.25;
+    margin: 2.5em 0;
+}
+
+.post-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-list li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5em 1em;
+}
