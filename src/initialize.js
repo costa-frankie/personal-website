@@ -1,5 +1,5 @@
-import { displayAboutContent } from "./about";
-import { displayFooterContent } from "./footer";
+import { displayAboutContent } from "./views/about";
+import { displayFooterContent } from "./components/footer";
 
 export function loadInterfaceElements() {
     displayAboutContent();

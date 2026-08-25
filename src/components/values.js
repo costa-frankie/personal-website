@@ -1,4 +1,4 @@
-import data from './values.json';
+import data from '../content/values.json';
 
 export function displayValuesContent(){
 

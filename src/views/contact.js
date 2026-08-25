@@ -1,5 +1,5 @@
-import linkedIn from './assets/In-White.png';
-import avatar from './assets/avatar-fc.png';
+import linkedIn from '../assets/In-White.png';
+import avatar from '../assets/avatar-fc.png';
 
 export function displayContactContent() {
     const contentContainer = document.querySelector('#content');

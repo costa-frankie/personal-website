@@ -1,7 +1,7 @@
-import data from './bookshelf.json';
+import data from '../content/bookshelf.json';
 
 // Import all images from book-images folder
-const bookImages = require.context('./assets/book-images', false, /\.(png|jpe?g|gif|svg)$/);
+const bookImages = require.context('../assets/book-images', false, /\.(png|jpe?g|gif|svg)$/);
 
 // Helper to resolve image path - returns bundled asset for local paths, original URL otherwise
 function resolveImage(imagePath) {

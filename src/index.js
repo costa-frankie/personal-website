@@ -1,10 +1,10 @@
-import './styles.css';
+import './styles/styles.css';
 import { loadInterfaceElements } from './initialize.js';
-import { displayContactContent } from './contact.js';
-import { displayAboutContent } from './about.js';
-import { displayResumeContent } from './resume.js';
-import { displayBookshelfContent } from './bookshelf.js';
-import { displayProjectsContent } from './projects.js';
+import { displayContactContent } from './views/contact.js';
+import { displayAboutContent } from './views/about.js';
+import { displayResumeContent } from './views/resume.js';
+import { displayBookshelfContent } from './views/bookshelf.js';
+import { displayProjectsContent } from './views/projects.js';
 
 
 document.addEventListener('DOMContentLoaded', (event) => {

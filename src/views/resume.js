@@ -1,5 +1,5 @@
-import data from './resume.json';
-import linkedIn from './assets/In-White.png';
+import data from '../content/resume.json';
+import linkedIn from '../assets/In-White.png';
 
 export function displayResumeContent() {
     const container = document.querySelector('#content');

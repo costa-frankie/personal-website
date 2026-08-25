@@ -1,4 +1,4 @@
-import data from './projects.json';
+import data from '../content/projects.json';
 
 export function displayProjectsContent() {
     const container = document.querySelector('#content');

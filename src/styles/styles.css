@@ -803,7 +803,7 @@ a:hover { filter: brightness(1.4) }
     aspect-ratio: 5;
 
     background-image: 
-    url('./assets/cascade-lines.svg'),
+    url('../assets/cascade-lines.svg'),
     linear-gradient(
         to bottom, 
         oklab(100% 0 -0.00011 / 0) 13%, 

@@ -1,6 +1,6 @@
-import foto from './assets/fc-headshot.png';
+import foto from '../assets/fc-headshot.png';
 import Typed from 'typed.js';
-import { displayValuesContent } from './values.js';
+import { displayValuesContent } from '../components/values.js';
 
 function calculateExperienceMonths() {
     const startDate = new Date("2015-08");
@@ -63,7 +63,7 @@ export function displayAboutContent() {
                 and led the release of an industry-first <a href="https://www.mitchell.com/solutions/auto-insurers/estimating/automated-estimating" target="_blank">automated estimating tool</a> 
                 built on Google's machine learning technology. I also launched the organization's first Voice-of-the-Customer program which created user feedback loops and drove meaningful process changes across the organization.</p>
                 <p class="text-h5 full-width font-mono">At <a href="https://www.axure.com/" target="_blank">Axure Software</a>, I worked on prototyping software loved by UX designers and product teams across the globe. I led two new collaboration products, <a href="https://www.axure.com/blog/axure-documents-and-whiteboards-beta" target="_blank">Axure Docs and Axure Whiteboards</a>, from concept to public beta, shipped dozens of improvements for Axure RP and Axure Cloud, and overhauled internal tooling to support the company's transition to SaaS. I also co-designed a multi-state editing system that streamlines UI design workflows and earned <a href="https://ppubs.uspto.gov/api/patents/html/11762531?source=USPAT&requestToken=eyJzdWIiOiI2ZmVhNmI5MS0xOTYzLTQ5ZmQtYmFkNy02MDJhOTEwZmM4MGIiLCJ2ZXIiOiI2M2E4ZWRiMi02ODU5LTRmYTItYWU4MC03MjE4ZWZjZGY5OWQiLCJleHAiOjB9" target="_blank">U.S. Patent #11762531B2</a>.</p>
-                <p class="text-h5 full-width font-mono">When I'm not building products, I'm in the garden growing food that the local squirrels are convinced is theirs, tending to my farm in Stardew Valley, or expanding my vinyl record collection. I'm based in <a href="https://en.wikipedia.org/wiki/Vancouver,_Washington" target="_blank">Vancouver, Washington</a> with my wife and our dachshund. Find us at a local trivia night training for Jeopardy, or searching for our next great slice of pizza.</p>
+                <p class="text-h5 full-width font-mono">When I'm not building products, I'm in the garden growing food that the local squirrels are convinced is theirs, tending to my farm in Stardew Valley, or expanding my vinyl record collection. I write about what I do (link coming soon) and what I'm cooking (link coming soon). I'm based in <a href="https://en.wikipedia.org/wiki/Vancouver,_Washington" target="_blank">Vancouver, Washington</a> with my wife and our reactive dachshund. Find us at a local trivia night training for Jeopardy, or searching for our next great slice of pizza.</p>
                 <p class="text-h5 full-width font-mono">Today, I'm learning full-stack web development through <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a> while building this site, working on some <button class="text-h5 text-link" id="open-projects-view">personal projects</button> and searching for my next role.</p>
                 <p class="text-h5 full-width font-mono">Connect with me on <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank">LinkedIn</a>.</p>
                 <p class="signature font-mono text-h5">-Frankie</p>
