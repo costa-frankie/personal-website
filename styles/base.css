@@ -81,3 +81,12 @@ hr {
 p:has(> picture) { 
    margin-bottom: .25rem; 
 }
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap-md {
+    gap: 1rem;
+}
