@@ -10,7 +10,7 @@
     "blog:serve": "eleventy --serve",
     "build": "webpack --mode production --no-devtool && npm run blog:build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname frankie-costa.com"
+    "deploy": "gh-pages -d dist --cname frankie-costa.com --nojekyll"
   },
   "keywords": [],
   "author": "Frankie Costa",
