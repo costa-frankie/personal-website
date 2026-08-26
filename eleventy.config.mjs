@@ -26,6 +26,7 @@ export default function (eleventyConfig) {
       imgAttributes: {
         loading: "lazy",
         decoding: "async",
+        sizes: "(min-width: 620px) 600px, 100vw",
       },
     },
   });

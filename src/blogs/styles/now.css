@@ -1,5 +1,3 @@
-/* /now — minimal, grayscale, one restrained accent on hover only. */
-
 :root {
     --now-bg: rgb(251, 254, 249);
     --now-text: rgb(45, 55, 72);
@@ -12,7 +10,7 @@ body {
     background-color: var(--now-bg);
     color: var(--now-text);
     font-family: "Albert Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 1.0625rem;
+    font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -104,10 +102,11 @@ img {
     display: block;
     margin-inline: auto;
     max-width: 100%;
-    width: auto;
     height: auto;
+    width: auto;
+    max-height: 600px;
     object-fit: contain;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     filter: grayscale(100%);
     transition: filter 0.25s ease;
 }
