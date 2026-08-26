@@ -14,10 +14,15 @@
 </head>
 <body>
     <header>
+        <div class="flex-row flex-align-center gap-md cursor-default min-28">
+            <p class="border-thick-black" id="nav-logo-text">FC</p>
+            <h1 class="font-wider"><a href="/">frankie-costa</a><span class="muted"> /now</span></h1>
+        </div>
+
         {% if indexPath and page.url != indexPath %}
         <p class="back-link"><a href="{{ indexPath | url }}">&larr; Back to all posts</a></p>
         {% endif %}
-        <h1>{{ title }}</h1>
+        <h2>{{ title }}</h2>
         {% if page.url != indexPath %}
         <p class="post-date">{{ page.date | readableDate }}</p>
         {% endif %}
