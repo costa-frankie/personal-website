@@ -1,6 +1,3 @@
-/* Theme-agnostic reset + prose rhythm shared by every blog theme.
-   No color or font-family decisions belong here — that's each theme's job. */
-
 *,
 *::before,
 *::after {
@@ -19,7 +16,6 @@ main {
 
 img {
     max-width: 100%;
-    height: auto;
     display: block;
 }
 
@@ -74,4 +70,14 @@ hr {
     align-items: baseline;
     justify-content: space-between;
     gap: 0.5em 1em;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: var(--now-muted);
+    text-align: center;
+}
+
+p:has(> picture) { 
+   margin-bottom: .25rem; 
 }
