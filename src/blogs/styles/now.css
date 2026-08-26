@@ -99,3 +99,19 @@ blockquote {
     border-left-color: var(--now-border);
     color: var(--now-muted);
 }
+
+img {
+    display: block;
+    margin-inline: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1rem;
+    filter: grayscale(100%);
+    transition: filter 0.25s ease;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
