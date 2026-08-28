@@ -1,0 +1,18 @@
+---
+title: My Bookshelf
+eleventyExcludeFromCollections: true
+---
+<div class="banner banner--info padding-md full-width margin-bottom-xl border-2">
+    <p class="text-p">I enjoyr reading because it helps me understand the complexities of the world. My bookshelf below contains books I'm reading or finished recently. Topics range from permaculture to neuroscience, to wizards, and beyond. They help me think differently and view things from a new perspective.</p>
+</div>
+<div class="book-grid full-width">
+{% for post in collections.bookshelfPosts reversed %}
+    <a class="book-card theme-nav flex-column gap-sm" href="{{ post.url | url }}">
+        <img src="{{ post.data.image }}" class="book-image padding-sm full-width" alt="Cover of the book: {{ post.data.title }}" />
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">{{ post.data.title }}</p>
+            <p class="muted text-slightly-smaller">by {{ post.data.author }}</p>
+        </div>
+    </a>
+{% endfor %}
+</div>

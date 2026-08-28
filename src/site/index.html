@@ -1,0 +1,95 @@
+---
+title: About
+layout: layout-site.html
+scripts:
+  - /scripts/typed.umd.js
+  - /scripts/typed-init.js
+values:
+  - title: Be Curious
+    icon: psychology_alt
+    color: blue
+    description: I ask questions to get to the 'why'. I aim to understand the root of a problem before trying to design a solution.
+  - title: Practice Empathy
+    icon: diversity_4
+    color: purple
+    description: I seek to deeply understand and internalize the emotions, motivations, and challenges of users as if they were my own.
+  - title: Just Be Frank
+    icon: conversation
+    color: green
+    description: I aim for transparency. I prefer clear, direct and respectful communication.
+  - title: Own It!
+    icon: award_star
+    color: pink
+    description: I move things forward any way that I can. No task is too small or too large.
+  - title: Keep It Simple
+    icon: chess_pawn
+    color: gray
+    description: I seek to reduce complexity wherever possible.
+---
+<section class="flex-column page-max-width gap-xl">
+    <section class="flex-row justify-center flex-align-center gap-md flex-wrap" id="hero-container">
+        <div class="flex-column gap-md flex-align-start">
+            <p class="text-h4 muted">Hello, my name is</p>
+            <h1 class="text-hero upper font-mono">Frankie Costa</h1>
+            <div class="flex-column gap-md text-hero-body">
+                <div class="flex-column gap-xs">
+                    <div class="flex-row gap-sm flex-align-center">
+                        <p class="text-h3 text-right muted">Experienced</p>
+                        <span class="text-h2 written" id="what-am-i"></span>
+                    </div>
+                    <div class="flex-row gap-sm flex-align-center">
+                        <p class="text-h3 text-right muted">who</p>
+                        <div class="flex-row gap-xs flex-align-end">
+                            <p class="padding-horizon-sm tag--default rounded-sm text-h2 written" id="typed-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-h3 muted">I help teams solve the right problems and build user-focused solutions.</p>
+            </div>
+        </div>
+        <div class="flex-column gap-sm centered">
+            <div class="img-container open-border border-4 circular flex-column flex-align-center justify-center">
+                <img src="/assets/fc-headshot.png" class="hero-photo circular shadow-md trans-all-200 margin-md" alt="Personal photo" />
+            </div>
+            <div class="open-border border-1 radius-2 open-to-work">
+                <p><span class="bullet">●</span> Open to work</p>
+            </div>
+        </div>
+    </section>
+</section>
+<section class="flex-column flex-align-center gap-lg padding-horizon-md padding-vert-4xl full-width section--surface-alt" id="my-story-container">
+    <h1 class="text-h1 full-width centered font-mono color-on-brand">About me</h1>
+    <p class="text-h4 centered font-mono color-on-brand padding-horizon-3xl">My journey so far</p>
+    <div class="readable pretty-wrap flex-column gap-lg padding-horizon-2xl padding-vert-2xl theme-nav" id="my-story-content">
+{% renderTemplate "md" %}
+I started out in product management because I wanted to join a team building exciting products. I wanted to understand how people come together to craft intuitive software. Over the last 10+ years, I've been doing just that, working on a variety of products from estimating apps for collision repair shops to prototyping tools for UX designers and product teams. Along the way, I've developed a love for learning new skills, whether that's <span class="tag--design">designing</span>, <span class="tag--technical">writing code</span> or <span class="tag--product">strategizing</span>.
+
+At <a href="https://www.mitchell.com/" target="_blank">Mitchell International</a>, I helped launch <a href="https://www.mitchell.com/solutions/collision-repairers/estimating" target="_blank">Mitchell Cloud Estimating</a> and led the release of an industry-first <a href="https://www.mitchell.com/solutions/auto-insurers/estimating/automated-estimating" target="_blank">automated estimating tool</a> built on Google's machine learning technology. I also launched the organization's first Voice-of-the-Customer program which created user feedback loops and drove meaningful process changes across the organization.
+
+At <a href="https://www.axure.com/" target="_blank">Axure Software</a>, I worked on prototyping software loved by UX designers and product teams across the globe. I led two new collaboration products, <a href="https://www.axure.com/blog/axure-documents-and-whiteboards-beta" target="_blank">Axure Docs and Axure Whiteboards</a>, from concept to public beta, shipped dozens of improvements for Axure RP and Axure Cloud, and overhauled internal tooling to support the company's transition to SaaS. I also co-designed a multi-state editing system that streamlines UI design workflows and earned <a href="https://ppubs.uspto.gov/api/patents/html/11762531?source=USPAT&requestToken=eyJzdWIiOiI2ZmVhNmI5MS0xOTYzLTQ5ZmQtYmFkNy02MDJhOTEwZmM4MGIiLCJ2ZXIiOiI2M2E4ZWRiMi02ODU5LTRmYTItYWU4MC03MjE4ZWZjZGY5OWQiLCJleHAiOjB9" target="_blank">U.S. Patent #11762531B2</a>.
+
+When I'm not building products, I'm in the garden growing food that the local squirrels are convinced is theirs, tending to my farm in Stardew Valley, or expanding my vinyl record collection. I'm based in <a href="https://en.wikipedia.org/wiki/Vancouver,_Washington" target="_blank">Vancouver, Washington, USA</a> with my wife and our overly reactive dachshund. Find us at a local trivia night training for Jeopardy, or searching for our next great slice of pizza.
+
+Today, I'm learning full-stack web development through <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a> while building this site, working on some [projects](/projects/), [writing](/now/) about random things, and searching for my next role.
+
+If you're interested in getting in touch, connect with me on <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank">LinkedIn</a>.
+
+—Frankie
+{% endrenderTemplate %}
+    </div>
+</section>
+<section class="full-width flex-column flex-align-center gap-md" id="values-section">
+    <div class="flex-column flex-align-center gap-lg page-max-width">
+        <h1 class="text-h1 full-width centered font-mono">My Values</h1>
+        <p class="text-h4 centered font-mono">A few principles that shape how I think and approach my work</p>
+        <div class="flex-row gap-xl flex-align-stretch justify-center flex-wrap" id="values-container">
+        {% for value in values %}
+            <div class="flex-column flex-align-center card card--surface padding-lg gap-md width-32-ch rounded">
+                <span class="material-symbols-outlined icon-lg color-{{ value.color }}">{{ value.icon }}</span>
+                <h1 class="text-h3 color-{{ value.color }} font-mono">{{ value.title }}</h1>
+                <p class="text-p centered muted font-mono width-28ch">{{ value.description }}</p>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>

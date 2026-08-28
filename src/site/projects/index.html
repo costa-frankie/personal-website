@@ -1,0 +1,28 @@
+---
+title: Projects
+layout: layout-site.html
+eleventyExcludeFromCollections: true
+---
+<div class="page-max-width flex-column gap-xl">
+<h1 class="content-title">{{ title }}</h1>
+<div class="banner banner--warning flex-column gap-md full-width padding-md margin-bottom-xl" id="projects-banner">
+    <h3>Featured Projects <span class="weight-normal muted">🚧 <em>Under Construction</em> 🚧</span></h3>
+    <p class="text-p">I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>
+</div>
+<div class="project-grid full-width">
+{% for post in collections.projectPosts reversed %}
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="{{ post.url | url }}">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">{{ post.data.icon }}</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">{{ post.data.title }}</h3>
+            <span class="text-h5 muted readable pretty-wrap">{{ post.data.description }}</span>
+        </div>
+        <div class="cluster">
+            {% for topic in post.data.topics %}<span class="tag tag--technical border-1">{{ topic }}</span>{% endfor %}
+        </div>
+    </a>
+{% endfor %}
+</div>
+</div>
