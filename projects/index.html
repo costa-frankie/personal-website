@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Frankie Costa</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/fc-favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Covered+By+Your+Grace&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/tokens.css">
+    <link rel="stylesheet" href="/styles/site.css">
+</head>
+<body class="flex-column flex-align-center margin-0">
+    <div class="flex-column flex-align-center margin-top-1 gap-md" id="site-wrapper">
+        <nav class="theme-nav flex-row flex-wrap gap-md flex-align-center space-between padding-vert-md padding-horizon-lg page-max-width" id="nav-container">
+    <a class="main-logo flex-row flex-align-center cursor-default trans-all-200" id="nav-logo-container" href="/">
+        <p class="border-thick-black bold black shadow-sm" id="nav-logo-text">FC</p>
+    </a>
+
+    <div class="flex-row flex-wrap gap-md">
+        <button id="nav-menu-btn" class="btn trans-all-200">
+            <span class="material-icons">menu</span>
+        </button>
+        <div class="nav-button-container flex-row flex-wrap gap-md" id="nav-button-container">
+            <div class="cluster">
+                <a class="btn trans-all-200" href="/">About</a>
+                <a class="btn trans-all-200" href="/resume/">Résumé</a>
+                <a class="btn trans-all-200 selected" href="/projects/">Projects</a>
+                <a class="btn trans-all-200" href="/bookshelf/">Bookshelf</a>
+                <a class="btn trans-all-200" href="/contact/">Contact</a>
+            </div>
+
+            <div class="nav-externals flex-row flex-wrap flex-align-center justify-center gap-sm">
+                <a class="btn flex-row flex-align-center justify-center nav-external-button trans-all-200" href="https://www.linkedin.com/in/frankie-j-costa" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/In-Black.png" width="24px" height="24px" alt="LinkedIn logo">
+                </a>
+                <a class="btn flex-row flex-align-center justify-center nav-external-button trans-all-200" href="https://github.com/costa-frankie" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/github-mark.svg" width="24px" height="24px" alt="GitHub logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <div class="padding-vert-xl flex-column flex-align-center gap-4xl full-width" id="content">
+            <div class="page-max-width flex-column gap-xl">
+<h1 class="content-title">Projects</h1>
+<div class="banner banner--warning flex-column gap-md full-width padding-md margin-bottom-xl" id="projects-banner">
+    <h3>Featured Projects <span class="weight-normal muted">🚧 <em>Under Construction</em> 🚧</span></h3>
+    <p class="text-p">I work on several personal projects as a way to sharpen my web development skills. Below are some of the projects I've designed and built that showcase some of my interests, ideas and technical accomplishments. This collection will continue to expand as my web development journey continues.</p>
+</div>
+<div class="project-grid full-width">
+
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="/projects/todos-los-to-dos/">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">check_box</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">Todos los to-dos</h3>
+            <span class="text-h5 muted readable pretty-wrap">A web app for managing and organizing your todo list</span>
+        </div>
+        <div class="cluster">
+            <span class="tag tag--technical border-1">Javascript</span><span class="tag tag--technical border-1">HTML</span><span class="tag tag--technical border-1">CSS</span><span class="tag tag--technical border-1">Tailwind CSS 4</span><span class="tag tag--technical border-1">Webpack</span>
+        </div>
+    </a>
+
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="/projects/music-podcast-streaming-server/">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">music_cast</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">Music & podcast streaming server</h3>
+            <span class="text-h5 muted readable pretty-wrap">A personally curated radio & podcast streaming app</span>
+        </div>
+        <div class="cluster">
+            <span class="tag tag--technical border-1">Node.js</span><span class="tag tag--technical border-1">RSS/XML</span><span class="tag tag--technical border-1">Local networking</span><span class="tag tag--technical border-1">Javascript</span><span class="tag tag--technical border-1">HTML</span><span class="tag tag--technical border-1">CSS</span>
+        </div>
+    </a>
+
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="/projects/personal-weather-app/">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">partly_cloudy_day</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">Personal Weather App 1.0</h3>
+            <span class="text-h5 muted readable pretty-wrap">A simple web app that fetches live forecast data and presents it in a dashboard-like interface</span>
+        </div>
+        <div class="cluster">
+            <span class="tag tag--technical border-1">Javascript</span><span class="tag tag--technical border-1">HTML</span><span class="tag tag--technical border-1">CSS</span><span class="tag tag--technical border-1">REST APIs</span><span class="tag tag--technical border-1">data viz</span><span class="tag tag--technical border-1">flexbox</span><span class="tag tag--technical border-1">responsive design</span>
+        </div>
+    </a>
+
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="/projects/aircraft-tracker/">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">travel</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">Aircraft Tracker 1.0</h3>
+            <span class="text-h5 muted readable pretty-wrap">Leverages APIs to fetch data about what aircrafts are flying overhead and presents it in an easy-to-use map interface</span>
+        </div>
+        <div class="cluster">
+            <span class="tag tag--technical border-1">React</span><span class="tag tag--technical border-1">CSS</span><span class="tag tag--technical border-1">MapLibre GL JS</span><span class="tag tag--technical border-1">Node.js</span><span class="tag tag--technical border-1">Express</span><span class="tag tag--technical border-1">OAuth 2.0</span><span class="tag tag--technical border-1">OpenSky API</span><span class="tag tag--technical border-1">webpack</span><span class="tag tag--technical border-1">npm scripts</span>
+        </div>
+    </a>
+
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="/projects/pi-hole-ad-blocker/">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">router</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">Pi-hole network-wide ad blocker</h3>
+            <span class="text-h5 muted readable pretty-wrap">A home network-wide ad blocker for ad-free browsing on all devices</span>
+        </div>
+        <div class="cluster">
+            <span class="tag tag--technical border-1">local networking</span><span class="tag tag--technical border-1">DNS</span><span class="tag tag--technical border-1">DHCP</span>
+        </div>
+    </a>
+
+    <a class="project-card card card--surface card--interactive flex-column gap-md" href="/projects/random-user-ux-widget-library/">
+        <div class="icon-container shadow-sm">
+            <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">electric_bolt</span>
+        </div>
+        <div class="flex-column gap-sm">
+            <h3 class="pretty-wrap text-h4 font-special">Random User UX Widget Library</h3>
+            <span class="text-h5 muted readable pretty-wrap">A Javascript-powered prototyping widget library for rapid prototyping in Axure RP</span>
+        </div>
+        <div class="cluster">
+            <span class="tag tag--technical border-1">DOM manipulation</span><span class="tag tag--technical border-1">APIs</span><span class="tag tag--technical border-1">Javscript</span><span class="tag tag--technical border-1">UX prototyping</span>
+        </div>
+    </a>
+
+</div>
+</div>
+
+        </div>
+    </div>
+    <footer id="the-footer" class="full-width">
+    <div class="flex-column justify-end flex-align-center padding-top-xl padding-bottom-md pin-bottom full-width footer-bg">
+    </div>
+    <div class="flex-row flex-align-center justify-center gap-xs full-width footer-content-bg">
+        <p class="balance-wrap color-on-brand padding-vert-lg pin-bottom">Created in 2026 by Frankie Costa in the Pacific Northwest </p><span class="material-symbols-outlined inline color-on-brand">forest</span>
+    </div>
+</footer>
+
+
+    <script src="/scripts/nav-toggle.js" defer=""></script>
+    
+</body>
+</html>

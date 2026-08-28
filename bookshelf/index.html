@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookshelf | Frankie Costa</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/fc-favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Covered+By+Your+Grace&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/tokens.css">
+    <link rel="stylesheet" href="/styles/site.css">
+</head>
+<body class="flex-column flex-align-center margin-0">
+    <div class="flex-column flex-align-center margin-top-1 gap-md" id="site-wrapper">
+        <nav class="theme-nav flex-row flex-wrap gap-md flex-align-center space-between padding-vert-md padding-horizon-lg page-max-width" id="nav-container">
+    <a class="main-logo flex-row flex-align-center cursor-default trans-all-200" id="nav-logo-container" href="/">
+        <p class="border-thick-black bold black shadow-sm" id="nav-logo-text">FC</p>
+    </a>
+
+    <div class="flex-row flex-wrap gap-md">
+        <button id="nav-menu-btn" class="btn trans-all-200">
+            <span class="material-icons">menu</span>
+        </button>
+        <div class="nav-button-container flex-row flex-wrap gap-md" id="nav-button-container">
+            <div class="cluster">
+                <a class="btn trans-all-200" href="/">About</a>
+                <a class="btn trans-all-200" href="/resume/">Résumé</a>
+                <a class="btn trans-all-200" href="/projects/">Projects</a>
+                <a class="btn trans-all-200 selected" href="/bookshelf/">Bookshelf</a>
+                <a class="btn trans-all-200" href="/contact/">Contact</a>
+            </div>
+
+            <div class="nav-externals flex-row flex-wrap flex-align-center justify-center gap-sm">
+                <a class="btn flex-row flex-align-center justify-center nav-external-button trans-all-200" href="https://www.linkedin.com/in/frankie-j-costa" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/In-Black.png" width="24px" height="24px" alt="LinkedIn logo">
+                </a>
+                <a class="btn flex-row flex-align-center justify-center nav-external-button trans-all-200" href="https://github.com/costa-frankie" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/github-mark.svg" width="24px" height="24px" alt="GitHub logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <div class="padding-vert-xl flex-column flex-align-center gap-4xl full-width" id="content">
+            <section class="flex-column page-max-width gap-xl" id="book-container">
+
+    <h1 class="content-title">My Bookshelf</h1>
+    <div class="banner banner--info padding-md full-width margin-bottom-xl border-2">
+    <p class="text-p">I enjoyr reading because it helps me understand the complexities of the world. My bookshelf below contains books I'm reading or finished recently. Topics range from permaculture to neuroscience, to wizards, and beyond. They help me think differently and view things from a new perspective.</p>
+</div>
+<div class="book-grid full-width">
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/how-to-find-a-four-leaf-clover/">
+        <picture><source type="image/webp" srcset="/bookshelf/WEx9eUsDTm-142.webp"><img loading="lazy" decoding="async" src="/bookshelf/WEx9eUsDTm-142.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: How to Find a Four-Leaf Clover" width="142" height="220"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">How to Find a Four-Leaf Clover</p>
+            <p class="muted text-slightly-smaller">by Jodi Rodgers</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/visual-thinking/">
+        <picture><source type="image/webp" srcset="/bookshelf/SprbS0ISCz-171.webp"><img loading="lazy" decoding="async" src="/bookshelf/SprbS0ISCz-171.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Visual Thinking" width="171" height="218"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Visual Thinking</p>
+            <p class="muted text-slightly-smaller">by Temple Grandin</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/the-electricity-of-every-living-thing/">
+        <picture><source type="image/webp" srcset="/bookshelf/PniEDM7sr--325.webp"><img loading="lazy" decoding="async" src="/bookshelf/PniEDM7sr--325.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: The Electricity of Every Living Thing" width="325" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">The Electricity of Every Living Thing</p>
+            <p class="muted text-slightly-smaller">by Katherine May</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/building-your-permaculture-property/">
+        <picture><source type="image/webp" srcset="/bookshelf/6DdKi68Gn6-384.webp"><img loading="lazy" decoding="async" src="/bookshelf/6DdKi68Gn6-384.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Building Your Permaculture Property" width="384" height="480"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Building Your Permaculture Property</p>
+            <p class="muted text-slightly-smaller">by Rob Avis, Takota Coen & Michelle Avis</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/finding-the-mother-tree/">
+        <picture><source type="image/webp" srcset="/bookshelf/73y46oGbck-325.webp"><img loading="lazy" decoding="async" src="/bookshelf/73y46oGbck-325.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Finding the Mother Tree" width="325" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Finding the Mother Tree</p>
+            <p class="muted text-slightly-smaller">by Suzanne Simard</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/neurotribes/">
+        <picture><source type="image/webp" srcset="/bookshelf/233pqkpm0J-333.webp"><img loading="lazy" decoding="async" src="/bookshelf/233pqkpm0J-333.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Neurotribes" width="333" height="499"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Neurotribes</p>
+            <p class="muted text-slightly-smaller">by Steve Silberman</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/the-overstory/">
+        <picture><source type="image/webp" srcset="/bookshelf/cANQxnI9wW-267.webp"><img loading="lazy" decoding="async" src="/bookshelf/cANQxnI9wW-267.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: The Overstory" width="267" height="400"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">The Overstory</p>
+            <p class="muted text-slightly-smaller">by Richard Powers</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/how-to-build-a-shed/">
+        <picture><source type="image/webp" srcset="/bookshelf/KWO5ww_djY-348.webp"><img loading="lazy" decoding="async" src="/bookshelf/KWO5ww_djY-348.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: How to Build a Shed" width="348" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">How to Build a Shed</p>
+            <p class="muted text-slightly-smaller">by Sally Coulthard</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/four-season-harvest/">
+        <picture><source type="image/webp" srcset="/bookshelf/w_qGJH1f5z-404.webp"><img loading="lazy" decoding="async" src="/bookshelf/w_qGJH1f5z-404.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Four Season Harvest" width="404" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Four Season Harvest</p>
+            <p class="muted text-slightly-smaller">by Eliot Coleman</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/tuesdays-with-morrie/">
+        <picture><source type="image/webp" srcset="/bookshelf/6A_hZWNBOt-337.webp"><img loading="lazy" decoding="async" src="/bookshelf/6A_hZWNBOt-337.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Tuesdays with Morrie" width="337" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Tuesdays with Morrie</p>
+            <p class="muted text-slightly-smaller">by Mitch Albom</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/where-the-deer-and-antelope-play/">
+        <picture><source type="image/webp" srcset="/bookshelf/gjUiFJM1rV-144.webp"><img loading="lazy" decoding="async" src="/bookshelf/gjUiFJM1rV-144.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Where the Deer and Antelope Play" width="144" height="218"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Where the Deer and Antelope Play</p>
+            <p class="muted text-slightly-smaller">by Nick Offerman</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/the-art-of-living/">
+        <picture><source type="image/webp" srcset="/bookshelf/2f7YAdFvI6-439.webp"><img loading="lazy" decoding="async" src="/bookshelf/2f7YAdFvI6-439.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: The Art of Living" width="439" height="522"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">The Art of Living</p>
+            <p class="muted text-slightly-smaller">by Grant Snider</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/leonardo-da-vinci/">
+        <picture><source type="image/webp" srcset="/bookshelf/2A96Rfh8JL-265.webp"><img loading="lazy" decoding="async" src="/bookshelf/2A96Rfh8JL-265.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Leonardo da Vinci" width="265" height="400"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Leonardo da Vinci</p>
+            <p class="muted text-slightly-smaller">by Walter Isaacson</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/the-wise-mans-fear/">
+        <picture><source type="image/webp" srcset="/bookshelf/YjubdcMIdb-277.webp"><img loading="lazy" decoding="async" src="/bookshelf/YjubdcMIdb-277.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: The Wise Man's Fear" width="277" height="419"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">The Wise Man's Fear</p>
+            <p class="muted text-slightly-smaller">by Patrick Rothfuss</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/the-name-of-the-wind/">
+        <picture><source type="image/webp" srcset="/bookshelf/SdGog8OZKF-320.webp"><img loading="lazy" decoding="async" src="/bookshelf/SdGog8OZKF-320.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: The Name of the Wind" width="320" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">The Name of the Wind</p>
+            <p class="muted text-slightly-smaller">by Patrick Rothfuss</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/cooked/">
+        <picture><source type="image/webp" srcset="/bookshelf/zc5-nq9RQG-327.webp"><img loading="lazy" decoding="async" src="/bookshelf/zc5-nq9RQG-327.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Cooked: A Natural History of Transformation" width="327" height="500"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Cooked: A Natural History of Transformation</p>
+            <p class="muted text-slightly-smaller">by Michael Pollan</p>
+        </div>
+    </a>
+
+    <a class="book-card theme-nav flex-column gap-sm" href="/bookshelf/ishmael/">
+        <picture><source type="image/webp" srcset="/bookshelf/HOXw5dgJC--315.webp"><img loading="lazy" decoding="async" src="/bookshelf/HOXw5dgJC--315.jpeg" class="book-image padding-sm full-width" alt="Cover of the book: Ishmael" width="315" height="475"></picture>
+        <div class="flex-column gap-sm padding-sm">
+            <p class="bold">Ishmael</p>
+            <p class="muted text-slightly-smaller">by Daniel Quinn</p>
+        </div>
+    </a>
+
+</div>
+
+
+</section>
+
+        </div>
+    </div>
+    <footer id="the-footer" class="full-width">
+    <div class="flex-column justify-end flex-align-center padding-top-xl padding-bottom-md pin-bottom full-width footer-bg">
+    </div>
+    <div class="flex-row flex-align-center justify-center gap-xs full-width footer-content-bg">
+        <p class="balance-wrap color-on-brand padding-vert-lg pin-bottom">Created in 2026 by Frankie Costa in the Pacific Northwest </p><span class="material-symbols-outlined inline color-on-brand">forest</span>
+    </div>
+</footer>
+
+
+    <script src="/scripts/nav-toggle.js" defer=""></script>
+    
+</body>
+</html>
