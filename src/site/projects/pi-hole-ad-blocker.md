@@ -1,5 +1,5 @@
 ---
-layout: layout-project.html
+layout: layouts/layout-project.html
 title: Pi-hole network-wide ad blocker
 description: A home network-wide ad blocker for ad-free browsing on all devices
 icon: router

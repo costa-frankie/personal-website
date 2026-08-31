@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: layout-site.html
+layout: layouts/layout-site.html
 topics:
   - name: Product strategy
     category: product

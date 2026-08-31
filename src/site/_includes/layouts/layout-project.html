@@ -1,5 +1,5 @@
 ---
-layout: layout-site.html
+layout: layouts/layout-site.html
 ---
 <article class="project-column flex-column gap-xl">
     {% if indexPath %}
@@ -13,7 +13,7 @@ layout: layout-site.html
                 <span class="material-symbols-outlined project-icon rounded flex-row flex-align-center justify-center">{{ icon }}</span>
             </div>
             <div class="flex-column gap-sm">
-                <h1 class="text-h1 font-mono">{{ title }}</h1>
+                <h1 class="text-h1 font-special">{{ title }}</h1>
                 <p class="text-h5 muted readable">{{ description }}</p>
                 {% if topics %}
                 <div class="cluster">

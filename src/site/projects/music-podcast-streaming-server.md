@@ -1,5 +1,5 @@
 ---
-layout: layout-project.html
+layout: layouts/layout-project.html
 title: Music & podcast streaming server
 description: A personally curated radio & podcast streaming app
 icon: music_cast

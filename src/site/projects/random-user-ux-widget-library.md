@@ -1,5 +1,5 @@
 ---
-layout: layout-project.html
+layout: layouts/layout-project.html
 title: Random User UX Widget Library
 description: A Javascript-powered prototyping widget library for rapid prototyping in Axure RP
 icon: electric_bolt

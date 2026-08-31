@@ -1,5 +1,5 @@
 ---
-layout: layout-project.html
+layout: layouts/layout-project.html
 title: Personal Weather App 1.0
 description: A simple web app that fetches live forecast data and presents it in a dashboard-like interface
 icon: partly_cloudy_day

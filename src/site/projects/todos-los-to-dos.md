@@ -1,5 +1,5 @@
 ---
-layout: layout-project.html
+layout: layouts/layout-project.html
 title: Todos los to-dos
 description: A web app for managing and organizing your todo list
 icon: check_box
