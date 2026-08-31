@@ -54,8 +54,8 @@ a:hover {
     font-size: 0.9rem;
 }
 
-.back-link a {
-    text-decoration: none;
+.text-link {
+    color: var(--now-action);
 }
 
 .post-date {

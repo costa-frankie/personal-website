@@ -544,7 +544,7 @@ a:hover.project-card { filter: brightness(.97)}
 
 /* MARK: OBJECTS (generic only — nav/footer specifics live in site.css) */
 
-.page-max-width { max-width: 1312px; width: 100%; margin: 0; padding-left: var(--space-md); padding-right: var(--space-md) }
+.page-max-width { max-width: 1024px; width: 100%; margin: 0; padding-left: var(--space-md); padding-right: var(--space-md) }
 
 .btn {
     border-width: var(--border-w-1);
