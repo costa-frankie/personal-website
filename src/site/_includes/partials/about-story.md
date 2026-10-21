@@ -6,7 +6,7 @@ At <a href="https://www.axure.com/" target="_blank">Axure Software</a>, I worked
 
 I'm based in <a href="https://en.wikipedia.org/wiki/Vancouver,_Washington" target="_blank">Vancouver, Washington, USA</a> with my wife and our overly reactive dachshund.
 
-Today, I'm enrolled in Surveying & Geomatics classes at the local community college while searching for my next role while.  On the side, I'm learning full-stack web development through <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a> building this site, working on some [projects](/projects/), and [writing](/now/). 
+Today, I'm enrolled in Surveying & Geomatics classes at the local community college while searching for my next role.  On the side, I'm learning full-stack web development through <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a> building this site, working on some [projects](/projects/), and [writing](/now/). 
 
 If you're interested in getting in touch, connect with me on <a href="https://www.linkedin.com/in/frankie-j-costa/" target="_blank">LinkedIn</a>.
 
