@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "predev": "npm run clean",
     "dev": "eleventy --serve",
+    "prebuild": "npm run clean",
     "build": "eleventy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist --cname frankie-costa.com --nojekyll"
